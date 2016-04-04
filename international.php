@@ -14,7 +14,8 @@
       <link href="css/style-m.css" rel="stylesheet">
       <link href="css/style-t.css" rel="stylesheet">
       <link href="css/style2.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link href="css/full-slider.css" rel="stylesheet">
         
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
     
@@ -136,582 +137,383 @@
 				     <!-- <h3 class="oza-domestic-head-sub-title text-center">Plan your gateway today</h3> -->
                </article>
 
-               <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="dubai" class="hovereffect">
-                            <img class="img-responsive" src="images/international/dubai.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Dubai</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="bangkok" class="hovereffect">
-                            <img class="img-responsive" src="images/international/bangkok.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Bangkok</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="malasia" class="hovereffect">
-                          <img class="img-responsive" src="images/international/malasia.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Malaysia</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                              <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                          <li>
-                             <section id="combodia" class="hovereffect">
-                          <img class="img-responsive" src="images/international/cambodia.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Cambodia</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                              <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                     </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  </section>
-              </section>
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                <div class="img_right">
+                      <div class="dubai"></div>
+                </div><!--img_right-->
+                <header id="myCarousel" class="carousel slide">
+                <div class ="inner_text1">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol> -->
 
-               <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">3 Night and 4 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="bali" class="hovereffect">
-                            <img class="img-responsive" src="images/international/bali.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Bali</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="srilanka" class="hovereffect">
-                            <img class="img-responsive" src="images/international/srilanka.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Srilanka</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="maldives" class="hovereffect">
-                          <img class="img-responsive" src="images/international/maldives.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Maldives</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="Hongkong" class="hovereffect">
-                          <img class="img-responsive" src="images/international/hongkong.jpg" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Hongkong</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="shanghai" class="hovereffect">
-                          <img class="img-responsive" src="images/international/shanghai.jpg" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Shanghai</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="singapore" class="hovereffect">
-                          <img class="img-responsive" src="images/international/singapore.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Singapore</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>          
-                             <section id="seychelles" class="hovereffect">
-                            <img class="img-responsive" src="images/international/seychelles.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Seychelles</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>                     
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>
+                    <!-- Wrapper for Slides -->
+                    
+                    <div class="carousel-inner image_size dubai_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/dubai.png">
+                                 
+                            </div>
 
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">4 Night and 5 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="ladakh" class="hovereffect">
-                            <img class="img-responsive" src="images/international/ladakh.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Ladakh</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="amsterdam" class="hovereffect">
-                            <img class="img-responsive" src="images/international/amsterdam.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Amsterdam</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="paris" class="hovereffect">
-                          <img class="img-responsive" src="images/international/paris.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Paris</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="glimpse" class="hovereffect">
-                          <img class="img-responsive" src="images/international/glimpse.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Glimpse</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="myanmar" class="hovereffect">
-                          <img class="img-responsive" src="images/international/myanmar.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Myanmar</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="china" class="hovereffect">
-                          <img class="img-responsive" src="images/international/china.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>China</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="kuwait" class="hovereffect">
-                          <img class="img-responsive" src="images/international/kuwait.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Kuwait</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="athens" class="hovereffect">
-                          <img class="img-responsive" src="images/international/athens.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Athens</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="korea" class="hovereffect">
-                          <img class="img-responsive" src="images/international/korea.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Korea</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                     
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
 
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">5 Night and 6 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="swiss" class="hovereffect">
-                            <img class="img-responsive" src="images/international/swiss.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Swiss</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="japan" class="hovereffect">
-                            <img class="img-responsive" src="images/international/japan.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Japan</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="cyprus" class="hovereffect">
-                          <img class="img-responsive" src="images/international/cyprus.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Cyprus</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="russia" class="hovereffect">
-                          <img class="img-responsive" src="images/international/russia.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Russia</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="syria" class="hovereffect">
-                          <img class="img-responsive" src="images/international/syria.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Syria</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>
-                             <section id="bhutan" class="hovereffect">
-                          <img class="img-responsive" src="images/international/bhutan.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Bhutan</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                          <li>
-                             <section id="vietnam" class="hovereffect">
-                          <img class="img-responsive" src="images/international/vietnam.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Vietnam</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>                     
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+                    
 
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">6 Night and 7 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="kenya" class="hovereffect">
-                            <img class="img-responsive" src="images/international/kenya.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Kenya</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="hongkong" class="hovereffect">
-                            <img class="img-responsive" src="images/international/hongkong.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Hongkong</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="italy" class="hovereffect">
-                          <img class="img-responsive" src="images/international/italy.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Italy</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>          
-                             <section id="newzealand" class="hovereffect">
-                            <img class="img-responsive" src="images/international/newzealand.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Newzealand</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="australia" class="hovereffect">
-                            <img class="img-responsive" src="images/international/australia.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Australia</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="america" class="hovereffect">
-                          <img class="img-responsive" src="images/international/america.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>America</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>          
-                             <section id="moroco" class="hovereffect">
-                            <img class="img-responsive" src="images/international/moroco.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Morocco</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="philipines" class="hovereffect">
-                            <img class="img-responsive" src="images/international/philiphine.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Philiphines</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="poland" class="hovereffect">
-                          <img class="img-responsive" src="images/international/poland.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Poland</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                     
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>
-
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">7 Night and 8 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="egypt" class="hovereffect">
-                            <img class="img-responsive" src="images/international/egypt.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Egypt</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="tebet" class="hovereffect">
-                            <img class="img-responsive" src="images/international/tibet.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Tibet</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="turkey" class="hovereffect">
-                          <img class="img-responsive" src="images/international/turkey.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Turkey</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>          
-                             <section id="kilimanjaro" class="hovereffect">
-                            <img class="img-responsive" src="images/international/kilimanjaro.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Kilimanjaro</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>
-
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >                  
-                  <h3 class="oza-domestic-head-sub-title text-center">8 Night and 9 Days Packages </h3>                    
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul>
-                        <li>          
-                             <section id="mangolia" class="hovereffect">
-                            <img class="img-responsive" src="images/international/mongolia.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Mongolia</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="uganda" class="hovereffect">
-                            <img class="img-responsive" src="images/international/uganda.png" alt="Mysore– Kodagu">
-                                <section class="overlay">
-                                    <h2>Uganda</h2>
-                              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                        <li>
-                             <section id="southafrica" class="hovereffect">
-                          <img class="img-responsive" src="images/international/southafrica.png" alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>South Africa</h2>
-                              <!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                               <section class="dummy_overlay">
-                                </section>
-                             </section>
-                         </li>
-                         <li>          
-                             <section id="isrel" class="hovereffect">
-                            <img class="img-responsive" src="images/international/israel.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Israel</h2>
-                              <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                 <section class="dummy_overlay">
-                                </section>
-                             </section>
-                        </li>
-                     
-                      </ul>
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-               </section>              
-
+                   
+                </header>
+             
+                
             </section>
+
+             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                
+                <header id="myCarousel" class="carousel slide image_sizer">
+                    <div class ="inner_text2">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size bali_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/bali.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
+                        <!-- <span class="icon-prev"></span> -->
+                    <!-- </a> -->
+                    <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
+                        <!-- <span class="icon-next"></span> -->
+                    <!-- </a>  -->
+
+                </header>
+                <div class="img_right bali_height1">
+                      <div class="bali"></div>
+                </div><!--img_right-->
+                
+            </section>
+
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                <div class="img_right">
+                      <div class="paris"></div>
+                </div><!--img_right-->
+                <header id="myCarousel" class="carousel slide">
+                   <div class ="inner_text3">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size paris_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    
+
+                </header>
+             
+                
+            </section>
+
+             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                
+                <header id="myCarousel" class="carousel slide image_sizer">
+                    <div class ="inner_text4">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size swiss_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    
+
+                </header>
+                <div class="img_right swiss_height1">
+                      <div class="swiss"></div>
+                </div><!--img_right-->
+                
+            </section>
+
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                <div class="img_right">
+                      <div class="hongkong"></div>
+                </div><!--img_right-->
+                <header id="myCarousel" class="carousel slide">
+                   <div class ="inner_text5">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size hongkong_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/hongkong.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    
+
+                </header>
+             
+                
+            </section>
+
+             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                
+                <header id="myCarousel" class="carousel slide image_sizer">
+                    <div class ="inner_text6">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size turkey_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/turkey.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+
+                </header>
+                <div class="img_right">
+                      <div class="turkey"></div>
+                </div><!--img_right-->
+                
+            </section>
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+             
+                <div class="img_right">
+                      <div class="southafrica"></div>
+                </div><!--img_right-->
+                <header id="myCarousel" class="carousel slide">
+                    <div class ="inner_text7">
+                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                      </span>
+                    </div>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner image_size southafrica_height">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/southafrica.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/swiss.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div> -->
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill">
+                              <img src="images/outbound_new/paris.png">
+                            </div>
+                            <!-- <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
+                        <!-- <span class="icon-prev"></span> -->
+                    <!-- </a> -->
+                    <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
+                        <!-- <span class="icon-next"></span> -->
+                    <!-- </a>  -->
+
+                </header>
+             
+                
+            </section>
+
+
+
+               
 
          </section>
       </main>
-      <?php include("footer.php"); ?> 
-     
+      <?php include("footer.php"); ?>      
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="js/jquery-1.11.3.min.js"></script>
       <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 

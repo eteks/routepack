@@ -15,6 +15,7 @@
       <link href="css/style-t.css" rel="stylesheet">
       <link href="css/style2.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/main.css">
       <link href="css/full-slider.css" rel="stylesheet">
         
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
@@ -31,6 +32,11 @@
       <![endif] data-spy="scroll" data-target=".navbar" data-offset="79"   data-offset-bottom = "200" -->
    </head>
    <body style="overflow-x:hidden;">
+     <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
   <section class="oza-header">
          <header id="navbar-top" class="banner navbar" role="banner">
             <section class="pannello-affix affix-top" data-spy="affix" data-offset-top = "60">
@@ -502,14 +508,8 @@
                         <!-- <span class="icon-next"></span> -->
                     <!-- </a>  -->
 
-                </header>
-             
-                
-            </section>
-
-
-
-               
+                </header>               
+            </section>   
 
          </section>
       </main>
@@ -546,6 +546,11 @@
       <!-- Include all compiled plugins (below), or include insectionidual files as needed -->
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap-affix.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+               $('body').addClass('loaded');
+            }, 3000);
+    </script>  
    <?php include("outbound_popup.php"); ?>     
    </body>
 </html>

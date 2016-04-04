@@ -13,9 +13,9 @@
       <link href="css/style.css" rel="stylesheet">
       <link href="css/style2.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-
     
     <noscript>
       <link rel="stylesheet" type="text/css" href="css/nojs.css" />
@@ -30,8 +30,14 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
       <![endif] data-spy="scroll" data-target=".navbar" data-offset="79"   data-offset-bottom = "200" -->
+
    </head>
    <body>
+<div id="loader-wrapper">
+<div id="loader"></div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+</div>
       <section class="oza-header">
          <header id="navbar-top" class="banner navbar" role="banner">
             <section class="pannello-affix affix-top" data-spy="affix" data-offset-top = "60">
@@ -132,10 +138,10 @@
 				      </article>   
                
               <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-			          <h3 class="oza-domestic-head-sub-title text-center">1 Night and 2 Days Packages</h3>	
+			          
 			          <div class="img_right">
                     		<div class="man1"></div>
-                    	</div><!--img_right-->	
+                </div><!--img_right-->	
                 <section class="jcarousel-wrapper">
                 	<section  class="jcarousel" data-jcarousel="true">
                      <ul style="left: -600px; top: 0px;">
@@ -143,6 +149,7 @@
                   			  <section id="yercaud" class="hovereffect">
                             <img class="img-responsive" src="images/inbound_new/in_pondicherry1.png" alt="Yercaud-Hogenakkal">
                               <section class="overlay">
+
                                   <h2>Yercaud-Hogenakkal</h2>
                   			  </section>
                               <section class="dummy_overlay">
@@ -150,10 +157,20 @@
           			          </section>
           			        </li>
                         <li>
+
                   			  <section id="valparai" class="hovereffect">
+                           
+                          </div>
                             <img class="img-responsive" src="images/inbound_new/in_pondicherry2.png" alt="Valparai-Pollachi">
+                                <div class ="inner_text">
+                                <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
+                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                                </span>
+                                 </div>
+
                               <section class="overlay">
-                                  <h2>Valpari-Pollachi</h2>
+                                  <h2 class="pon">Valpari-Pollachi</h2>
+
                   				</section>
                               <section class="dummy_overlay">
                                 </section>
@@ -177,7 +194,7 @@
 		          </section>		  
                
               <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >        			   
-        			   <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>        				
+        			  <!--  <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>   -->      				
                   <section class="jcarousel-wrapper">
                     <section  class="jcarousel" data-jcarousel="true">
                       <ul style="left: -600px; top: 0px;">
@@ -195,8 +212,13 @@
                         <li>
                   			  <section id="mysore" class="hovereffect">
                             <img class="img-responsive" src="images/domestic/mysore.png" alt="Mysore– Kodagu">
+                            <div class ="inner_text1">
+                                <span><h3 class="one">2</h3> <h3 class="night">Night</h3><h3 class="two"> 3 </h3>
+                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                                </span>
+                                 </div>
                                 <section class="overlay">
-                                    <h2>Mysore - Kodagu</h2>
+                                    <h2 class="my">Mysore - Kodagu</h2>
                     				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
                                 </section>
                                 <section class="dummy_overlay">
@@ -205,27 +227,36 @@
                         </li>
                         <li>
                   			  <section id="shimoga" class="hovereffect">
-                          <img class="img-responsive" src="images/domestic/shimoga.png" alt="Shimoga -Jog falls">
+                          <img class="img-responsive"  alt="Shimoga -Jog falls">
                               <section class="overlay">
                                   <h2>Shimoga - Jog falls</h2>
                   				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
                               </section>
                               <section class="dummy_overlay">
                                 </section>
+
                   			  </section>
                          </li>
           			   
                       </ul>
+
                     </section>
                   <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
                   
                   </section>
+                                                 <div class="img_right">
+                    <div class="in_img2"></div>
+                    </div>
         		  </section>	  
-               
+    
               <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >          			   
-          			<h3 class="oza-domestic-head-sub-title text-center">3 Night and 4 Days Packages </h3>          				
+          			<!-- <h3 class="oza-domestic-head-sub-title text-center">3 Night and 4 Days Packages </h3>  -->  
+                <div class="img_right">
+                        <div class="in_img3"></div>
+                </div>       				
                   <section class="jcarousel-wrapper">
                     <section class="jcarousel" data-jcarousel="true">
+
                       <ul style="left: -600px; top: 0px;">
                         <li>			  
           			          <section id="thiruvandrum" class="hovereffect">
@@ -239,10 +270,16 @@
           			          </section>
                         </li>
                         <li>
+
           			          <section id="hyderabad" class="hovereffect">
                             <img class="img-responsive" src="images/domestic/hyderabad.png" alt="Hyderabad - Warangal">
+                            <div class ="inner_text">
+                                <span><h3 class="one">3</h3> <h3 class="night">Night</h3><h3 class="two">4</h3>
+                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                                </span>
+                                 </div>
                               <section class="overlay">
-                                <h2>Hyderabad - Warangal</h2>
+                                <h2 class="my">Hyderabad - Warangal</h2>
           				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
                               </section>
                               <section class="dummy_overlay">
@@ -271,7 +308,7 @@
 		  
 		  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
 			   
-			    <h3 class="oza-domestic-head-sub-title text-center">7 Night and 8 Days Packages </h3>
+			   
 				
           <section class="jcarousel-wrapper">
           <section class="jcarousel" data-jcarousel="true">
@@ -290,8 +327,13 @@
               <li>
 			  <section id="manali" class="hovereffect">
         <img class="img-responsive" src="images/domestic/manali.png" alt="Delhi - Kulu manali">
+        <div class ="inner_text1">
+                                <span><h3 class="one">7</h3> <h3 class="night">Night</h3><h3 class="two">8 </h3>
+                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                                </span>
+                                 </div>
             <section class="overlay">
-                <h2>Delhi - Kulu manali</h2>
+                <h2  class="my">Delhi - Kulu manali</h2>
 				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
             </section>
             <section class="dummy_overlay">
@@ -314,10 +356,11 @@
           </section>
           <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
           
-          </section>
+          </section> <div class="img_right">
+                    <div class="in_img4"></div>
+                    </div>
 		  </section> 
-		  
-		  
+		
             </section>
          </section>
         
@@ -325,43 +368,39 @@
          
       </main>
       <?php include("footer.php"); ?>
-      
-	   
+
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="js/jquery-1.11.3.min.js"></script>
+     <script src="js/jquery-1.11.3.min.js"></script>
       <!-- Include all compiled plugins (below), or include insectionidual files as needed -->
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap-affix.js"></script>
- <link href="css/jquery-ui.css" rel="stylesheet">
-        <script src="js/jquery-ui.min.js"></script> 
-        <script src="js/jquery.validate.min.js"></script>
-     <script type="text/javascript" src="js/validation.js"></script>
-        <script>
+      <link href="css/jquery-ui.css" rel="stylesheet">
+      <script src="js/jquery-ui.min.js"></script> 
+      <script src="js/jquery.validate.min.js"></script>
+      <script type="text/javascript" src="js/validation.js"></script>
+      <script>
         $('#datepicker, #datepicker_depature').datepicker({
             dateFormat: 'MM dd, yy',
             minDate: 0,
             showOtherMonths: true
         });
       </script>
-
-
-       <script type="text/javascript" src="js/jquery.cslider.js"></script>
-    <script type="text/javascript">
-      $(function() {
-      
-        $('#da-slider').cslider({
-         autoplay  : true,
-         
-          //bgincrement : 450
+      <script type="text/javascript">
+         setTimeout(function () {
+                   $('body').addClass('loaded');
+                }, 3000);
+      </script>
+      <script type="text/javascript" src="js/jquery.cslider.js"></script>
+      <script type="text/javascript">
+        $(function() {      
+          $('#da-slider').cslider({
+           autoplay  : true,      
+          });      
         });
-      
-      });
-    </script> 
-
-  
-<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
-<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
-<script src="js/custom.js"></script>
-<?php include("inbound_popup.php"); ?>
-   </body>
+      </script> 
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+  <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+  <script src="js/custom.js"></script>
+  <?php include("inbound_popup.php"); ?>
+  </body>
 </html>

@@ -14,8 +14,9 @@
       <link href="css/style-m.css" rel="stylesheet">
       <link href="css/style-t.css" rel="stylesheet">
 	  <link href="css/jcarousel.responsive.css" rel="stylesheet" >
-       <link href="css/style2.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link href="css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
         
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
     
@@ -30,6 +31,11 @@
       <![endif] data-spy="scroll" data-target=".navbar" data-offset="79"   data-offset-bottom = "200" -->
    </head>
    <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
       <section class="oza-header">
          <header id="navbar-top" class="banner navbar" role="banner">
             <section class="pannello-affix affix-top" data-spy="affix" data-offset-top = "60">
@@ -202,32 +208,27 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap-affix.js"></script>
       <script src="js/custom.js"></script>
-          <script type="text/javascript" src="js/jquery.cslider.js"></script>
-    <script type="text/javascript">
-      $(function() {
-      
-        $('#da-slider').cslider({
-         autoplay  : true,
-         
-          //bgincrement : 450
+      <script type="text/javascript" src="js/jquery.cslider.js"></script>    
+      <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+      <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <link href="css/jquery-ui.css" rel="stylesheet">
+      <script src="js/jquery-ui.min.js"></script> 
+      <script src="js/validation.js"></script> 
+      <script type="text/javascript">
+        $(function() {        
+          $('#da-slider').cslider({
+           autoplay  : true,         
+          });        
         });
-      
-      });
-    </script>
-	  
-<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
-<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
-<script src="js/jquery.validate.min.js"></script>
- <link href="css/jquery-ui.css" rel="stylesheet">
-        <script src="js/jquery-ui.min.js"></script> 
-        <script>
+      </script>   
+      <script>
         $('#datepicker, #datepicker_depature').datepicker({
             dateFormat: 'MM dd, yy',
             minDate: 0,
             showOtherMonths: true
         });
-      </script>
-      <script src="js/validation.js"></script> 
+      </script>      
        <!-- Google Maps API -->
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script>
@@ -237,23 +238,21 @@
                 scrollwheel: false,
                 center: new google.maps.LatLng(11.954299,79.832727)
               };
-
               var map = new google.maps.Map(document.getElementById('map_area'),
                   mapOptions);
-   var contentString = '<div id="content">'+
-         '<div id="siteNotice">'+
-        '</div>'+
-        '<div id="bodyContent">'+
-         '<p><b>e-Vinity</b></p>'+
-         '<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>'+
-         '<p>info@evinity.com</p>'+
-         '<p>+91 - 413 - 2235600</p>'+
-         '</div>'+
-         '</div>';
-      var infowindow = new google.maps.InfoWindow({
-          content: contentString
-      });
-
+              var contentString = '<div id="content">'+
+                     '<div id="siteNotice">'+
+                    '</div>'+
+                    '<div id="bodyContent">'+
+                     '<p><b>e-Vinity</b></p>'+
+                     '<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>'+
+                     '<p>info@evinity.com</p>'+
+                     '<p>+91 - 413 - 2235600</p>'+
+                     '</div>'+
+                     '</div>';
+              var infowindow = new google.maps.InfoWindow({
+                content: contentString
+              });
               var marker = new google.maps.Marker({
                 position: map.getCenter(),
                 animation:google.maps.Animation.BOUNCE,
@@ -261,11 +260,13 @@
                 map: map,
                 title: 'e-Vinity'
               });
-
             }
-
-            google.maps.event.addDomListener(window, 'load', initialize);
-            
-        </script>    
+            google.maps.event.addDomListener(window, 'load', initialize);            
+        </script>
+       <script type="text/javascript">
+          setTimeout(function () {
+               $('body').addClass('loaded');
+          }, 3000);
+    </script>     
    </body>
 </html>

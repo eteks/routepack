@@ -19,6 +19,7 @@
     <link rel="icon" href="favicon.ico"> 
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>    
     <noscript>
       <link rel="stylesheet" type="text/css" href="css/nojs.css" />
@@ -32,6 +33,11 @@
   </head>
   <body autofocus>
     <!-- header_part start -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
     <section class="oza-header" >
       <header id="navbar-top" class="banner navbar" role="banner"> <!-- navbar start -->
         <section class="pannello-affix affix-top" data-spy="affix" data-offset-top = "60">
@@ -454,9 +460,7 @@
       <script type="text/javascript" src="js/s3Slider.js"></script>
      <script src="js/jquery.validate.min.js"></script>
      <script type="text/javascript" src="js/validation.js"></script>
-     <!--  // <script type="text/javascript" src="js/jssor.slider.min.js"></script> -->
-    
-      
+     <!--  // <script type="text/javascript" src="js/jssor.slider.min.js"></script> -->    
       <script>
         $('#datepicker, #datepicker_depature').datepicker({
             dateFormat: 'MM dd, yy',
@@ -465,33 +469,28 @@
         });
       </script>
       <script type="text/javascript" src="js/jquery.cslider.js"></script>
-    <script type="text/javascript">
-      $(function() {
-      
+      <script type="text/javascript">
+      $(function() {      
         $('#da-slider').cslider({
          autoplay  : true,
-         
-          //bgincrement : 450
-        });
-      
+         });      
       });
     </script>
-    <script type='text/javascript'>
- // $(document).keydown(function(e){
-   // e.preventDefault();
-  //});
-</script>
     <script>
       $('.carousel').carousel();
     </script>
- <script type="text/javascript">
-    $(document).ready(function() {
-        $('#slider1').s3Slider({
-            timeOut: 4000 
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('#slider1').s3Slider({
+              timeOut: 4000 
+          });
         });
-    });
-</script>
-      
+    </script>   
+    <script type="text/javascript">
+     setTimeout(function () {
+               $('body').addClass('loaded');
+            }, 3000);
+    </script>    
       <?php include("knowmore_popup.php"); ?>    
   </body>
 </html>

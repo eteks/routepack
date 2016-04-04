@@ -152,7 +152,7 @@
 
                                   <h2>Yercaud-Hogenakkal</h2>
                   			  </section>
-                              <section class="dummy_overlay">
+                              <section class="dummy_overlay_inbound">
                                 </section>
           			          </section>
           			        </li>
@@ -172,7 +172,7 @@
                                   <h2 class="pon">Valpari-Pollachi</h2>
 
                   				</section>
-                              <section class="dummy_overlay">
+                              <section class="dummy_overlay_inbound">
                                 </section>
                 			    </section>
                         </li>
@@ -182,7 +182,7 @@
                               <section class="overlay">
                                   <h2>Pondicherry</h2>
                   			  </section>
-                              <section class="dummy_overlay">
+                              <section class="dummy_overlay_inbound">
                                 </section>
                   			 </section>		  
                         </li>		     
@@ -205,7 +205,7 @@
                                     <h2>Bangalore - Mysore</h2>
                     				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
                                 </section>
-                                <section class="dummy_overlay">
+                                <section class="dummy_overlay_inbound">
                                 </section>
                   			  </section>
                         </li>
@@ -221,7 +221,7 @@
                                     <h2 class="my">Mysore - Kodagu</h2>
                     				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
                                 </section>
-                                <section class="dummy_overlay">
+                                <section class="dummy_overlay_inbound">
                                 </section>
                   			  </section>
                         </li>
@@ -232,7 +232,7 @@
                                   <h2>Shimoga - Jog falls</h2>
                   				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
                               </section>
-                              <section class="dummy_overlay">
+                              <section class="dummy_overlay_inbound">
                                 </section>
 
                   			  </section>
@@ -265,7 +265,7 @@
                               <h2>Kaniyakumari - Thiruvandrum</h2>
           				            <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
                             </section>
-                            <section class="dummy_overlay">
+                            <section class="dummy_overlay_inbound">
                                 </section>
           			          </section>
                         </li>
@@ -282,7 +282,7 @@
                                 <h2 class="my">Hyderabad - Warangal</h2>
           				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
                               </section>
-                              <section class="dummy_overlay">
+                              <section class="dummy_overlay_inbound">
                                 </section>
           			          </section>
                         </li>
@@ -293,7 +293,7 @@
                           <h2>Ooty - Mysore</h2>
           				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
                       </section>
-                      <section class="dummy_overlay">
+                      <section class="dummy_overlay_inbound">
                                 </section>
           			</section>
                </li>
@@ -320,7 +320,7 @@
                 <h2>Chandigarh - Amristar</h2>
 				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
             </section>
-            <section class="dummy_overlay">
+            <section class="dummy_overlay_inbound">
                                 </section>
 			</section>
                </li>
@@ -336,7 +336,7 @@
                 <h2  class="my">Delhi - Kulu manali</h2>
 				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
             </section>
-            <section class="dummy_overlay">
+            <section class="dummy_overlay_inbound">
                                 </section>
 			</section>
                </li>
@@ -347,7 +347,7 @@
                 <h2>Jaipur - Shimla</h2>
 				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
             </section>
-            <section class="dummy_overlay">
+            <section class="dummy_overlay_inbound">
                                 </section>
 			</section>
                </li>

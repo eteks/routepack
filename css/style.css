@@ -132,7 +132,7 @@ body { font-size:14px; font-family: Helvetica, Arial, sans-serif; }
     color: white;
     z-index: 10;
 }
-.dummy_overlay {
+.dummy_overlay_inbound {
     background-color: black;
     bottom: 0;
     height: 13%;
@@ -140,6 +140,15 @@ body { font-size:14px; font-family: Helvetica, Arial, sans-serif; }
     opacity: 0.62;
     position: absolute;
     width: 60%;
+}
+.dummy_overlay {
+    background-color: #fff;
+    bottom: 0;
+    height: 13%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
 }
 
 .hovereffect img {

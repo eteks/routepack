@@ -126,243 +126,218 @@
     </section>
 
 <?php include("pop_up.php"); ?>
+  <main> 
+    <section class="container oza-container">
+      <section class="row oza-explore-world">
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <h2 class="oza-domestic-head-title">Domestic Packages</h2>
+            <h3 class="oza-domestic-sub-title">Relax...You're with us! We make it simple.</h3>
+	      </article>            
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >     
+          <div class="img_right">
+        		<div class="man1"></div>
+          </div><!--img_right-->	
+          <section id="myCarousel" class="carousel">
+          	<section>
+              <div class="inner_text_one_night">
+                    <span>
+                        <h3 class="one">1</h3> 
+                        <h3 class="night">Night</h3>
+                        <h3 class="two"> 2 </h3>
+                        <h3 class="and">&</h3>
+                        <h3 class="days"> Days</h3>
+                        <h3 class="pack"> Packages</h3>
+                    </span>
+                </div>
+               <ul class="carousel-inner list_items align_width" style="left:-39px;top: 20px;">
+                  <li class="item active">
+            			  <section id="yercaud" class="hovereffect">
+                      <img class="img-responsive" src="images/inbound_new/in_pondicherry1.png" alt="Yercaud-Hogenakkal">
+                        <section class="overlay">
+                            <h2 class="pon">Yercaud-Hogenakkal</h2>
+          			        </section>
+                        <section class="dummy_overlay_inbound"></section>
+    			          </section>
+    			        </li>
+                  <li class="item">
+            			  <section id="valparai" class="hovereffect">                     
+                        <img class="img-responsive" src="images/inbound_new/in_pondicherry2.png" alt="Valparai-Pollachi">                      
+                        <section class="overlay">
+                            <h2 class="pon">Valpari-Pollachi</h2>
+            				    </section>
+                        <section class="dummy_overlay_inbound"></section>
+          			    </section>
+                  </li>
+                  <li class="item">
+            			  <section id="pondicherry" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/pondichery.png" alt="pondichery">
+                      <section class="overlay">
+                          <h2 class="pon">Pondicherry</h2>
+          			      </section>
+                      <section class="dummy_overlay_inbound"></section>
+            			 </section>		  
+                  </li>		     
+                 </ul>
+              </section>
+            <!--   <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a>
+              <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a>  -->
+            </section>
+        </section>               
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >        			   
+  			  <!--  <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>   -->      				
+            <section id="myCarousel" class="carousel align_width">
+              <section>
+                    <div class ="inner_text1">
+                        <span>
+                            <h3 class="one">2</h3>
+                            <h3 class="night">Night</h3>
+                            <h3 class="two"> 3 </h3>
+                            <h3 class="and">&</h3>
+                            <h3 class="days"> Days</h3>
+                            <h3 class="pack"> Packages</h3>
+                        </span>
+                    </div>      
+                <ul class="carousel-inner list_items"  style="top: 10px;">
+                  <li class="item active">			  
+            			  <section id="bangalore" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/bangalore.png" alt="Bangalore - Mysore">
+                          <section class="overlay">
+                              <h2 class="my">Bangalore - Mysore</h2>
+              				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
+                          </section>
+                          <section class="dummy_overlay_inbound">
+                          </section>
+            			  </section>
+                  </li>
+                  <li class="item">
+            			  <section id="mysore" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/mysore.png" alt="Mysore– Kodagu">                       
+                          <section class="overlay">
+                              <h2 class="my">Mysore - Kodagu</h2>
+              				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
+                          </section>
+                          <section class="dummy_overlay_inbound">
+                          </section>
+            			  </section>
+                  </li>
+                  <li class="item">
+            			  <section id="shimoga" class="hovereffect">
+                        <img class="img-responsive"  alt="Shimoga -Jog falls" src="images/domestic/mysore.png">
+                        <section class="overlay">
+                            <h2 class="my">Shimoga - Jog falls</h2>            
+                        </section>
+                        <section class="dummy_overlay_inbound"></section>
+            			  </section>
+                   </li>    			   
+                </ul>
 
-
-
-      <main> 
-         <section class="container oza-container">
-            <section class="row oza-explore-world">
-              <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                  <h2 class="oza-domestic-head-title">Domestic Packages</h2>
-                  <h3 class="oza-domestic-sub-title">Relax...You're with us! We make it simple.</h3>
-				      </article>   
-               
-              <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-			          
-			          <div class="img_right">
-                    		<div class="man1"></div>
-                </div><!--img_right-->	
-                <section class="jcarousel-wrapper">
-                	<section  class="jcarousel" data-jcarousel="true">
-                     <ul style="left: -600px; top: 0px;">
-                        <li>
-                  			  <section id="yercaud" class="hovereffect">
-                            <img class="img-responsive" src="images/inbound_new/in_pondicherry1.png" alt="Yercaud-Hogenakkal">
-                              <section class="overlay">
-
-                                  <h2>Yercaud-Hogenakkal</h2>
-                  			  </section>
-                              <section class="dummy_overlay_inbound">
-                                </section>
-          			          </section>
-          			        </li>
-                        <li>
-
-                  			  <section id="valparai" class="hovereffect">
-                           
-                          </div>
-                            <img class="img-responsive" src="images/inbound_new/in_pondicherry2.png" alt="Valparai-Pollachi">
-                                <div class ="inner_text">
-                                <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                                </span>
-                                 </div>
-
-                              <section class="overlay">
-                                  <h2 class="pon">Valpari-Pollachi</h2>
-
-                  				</section>
-                              <section class="dummy_overlay_inbound">
-                                </section>
-                			    </section>
-                        </li>
-                        <li>
-                  			  <section id="pondicherry" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/pondichery.png" alt="pondichery">
-                              <section class="overlay">
-                                  <h2>Pondicherry</h2>
-                  			  </section>
-                              <section class="dummy_overlay_inbound">
-                                </section>
-                  			 </section>		  
-                        </li>		     
-                       </ul>
-                    </section>
-                    <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a>
-                     <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  </section>
-		          </section>		  
-               
-              <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >        			   
-        			  <!--  <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>   -->      				
-                  <section class="jcarousel-wrapper">
-                    <section  class="jcarousel" data-jcarousel="true">
-                      <ul style="left: -600px; top: 0px;">
-                        <li>			  
-                  			  <section id="bangalore" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/bangalore.png" alt="Bangalore - Mysore">
-                                <section class="overlay">
-                                    <h2>Bangalore - Mysore</h2>
-                    				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                                </section>
-                                <section class="dummy_overlay_inbound">
-                                </section>
-                  			  </section>
-                        </li>
-                        <li>
-                  			  <section id="mysore" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/mysore.png" alt="Mysore– Kodagu">
-                            <div class ="inner_text1">
-                                <span><h3 class="one">2</h3> <h3 class="night">Night</h3><h3 class="two"> 3 </h3>
-                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                                </span>
-                                 </div>
-                                <section class="overlay">
-                                    <h2 class="my">Mysore - Kodagu</h2>
-                    				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                                </section>
-                                <section class="dummy_overlay_inbound">
-                                </section>
-                  			  </section>
-                        </li>
-                        <li>
-                  			  <section id="shimoga" class="hovereffect">
-                          <img class="img-responsive"  alt="Shimoga -Jog falls">
-                              <section class="overlay">
-                                  <h2>Shimoga - Jog falls</h2>
-                  				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-                              </section>
-                              <section class="dummy_overlay_inbound">
-                                </section>
-
-                  			  </section>
-                         </li>
-          			   
-                      </ul>
-
-                    </section>
-                  <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-                  
-                  </section>
-                                                 <div class="img_right">
-                    <div class="in_img2"></div>
-                    </div>
-        		  </section>	  
-    
-              <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >          			   
-          			<!-- <h3 class="oza-domestic-head-sub-title text-center">3 Night and 4 Days Packages </h3>  -->  
-                <div class="img_right">
-                        <div class="in_img3"></div>
-                </div>       				
-                  <section class="jcarousel-wrapper">
-                    <section class="jcarousel" data-jcarousel="true">
-
-                      <ul style="left: -600px; top: 0px;">
-                        <li>			  
-          			          <section id="thiruvandrum" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/trivandrum.png" alt="Trivandrum">
-                            <section class="overlay">
-                              <h2>Kaniyakumari - Thiruvandrum</h2>
-          				            <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-                            </section>
-                            <section class="dummy_overlay_inbound">
-                                </section>
-          			          </section>
-                        </li>
-                        <li>
-
-          			          <section id="hyderabad" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/hyderabad.png" alt="Hyderabad - Warangal">
-                            <div class ="inner_text">
-                                <span><h3 class="one">3</h3> <h3 class="night">Night</h3><h3 class="two">4</h3>
-                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                                </span>
-                                 </div>
-                              <section class="overlay">
-                                <h2 class="my">Hyderabad - Warangal</h2>
-          				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-                              </section>
-                              <section class="dummy_overlay_inbound">
-                                </section>
-          			          </section>
-                        </li>
-                        <li>
-          			          <section id="ooty" class="hovereffect">
-                            <img class="img-responsive" src="images/domestic/ooty.png" alt="Ooty-Mysore">
-                            <section class="overlay">
-                          <h2>Ooty - Mysore</h2>
-          				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
+              </section>      
+            </section>
+           <div class="img_right">
+              <div class="in_img2"></div>
+            </div>
+  		  </section>    
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >       			   
+          <div class="img_right">
+            <div class="in_img3"></div>
+          </div>       				
+          <section id="myCarousel" class="carousel">
+              <section>
+               <div class ="inner_text_three_night">
+                          <span><h3 class="one">3</h3> <h3 class="night">Night</h3><h3 class="two">4</h3>
+                          <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
+                          </span>
+                       </div>
+                <ul class="carousel-inner list_items align_width" style="right:38px;top:0px">
+                  <li class="item active">			  
+    			          <section id="thiruvandrum" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/trivandrum.png" alt="Trivandrum">
+                      <section class="overlay">
+                        <h2 class="bottom_topic">Kaniyakumari - Thiruvandrum</h2>
+    				            <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
                       </section>
                       <section class="dummy_overlay_inbound">
-                                </section>
-          			</section>
-               </li>
-			   
-            </ul>
-          </section>
-          <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-          
-          </section>
-		  </section>
+                          </section>
+    			          </section>
+                  </li>
+                  <li class="item">
+    			          <section id="hyderabad" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/hyderabad.png" alt="Hyderabad - Warangal">                     
+                        <section class="overlay">
+                          <h2 class="bottom_topic">Hyderabad - Warangal</h2>
+    				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
+                        </section>
+                        <section class="dummy_overlay_inbound_hyd">
+                          </section>
+    			          </section>
+                  </li>
+                  <li class="item">
+    			          <section id="ooty" class="hovereffect">
+                      <img class="img-responsive" src="images/domestic/ooty.png" alt="Ooty-Mysore">
+                      <section class="overlay">
+                    <h2 class="bottom_topic">Ooty - Mysore</h2>
+    				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
+                </section>
+                <section class="dummy_overlay_inbound">
+                          </section>
+    			</section>
+         </li>   
+        </ul>
+      </section>    
+    </section>
+  </section>
 		  
 		  
-		  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-			   
-			   
-				
-          <section class="jcarousel-wrapper">
-          <section class="jcarousel" data-jcarousel="true">
-           <ul style="left: -600px; top: 0px;">
-              <li>			  
-			  <section id="amristar" class="hovereffect">
-        <img class="img-responsive" src="images/domestic/amristar.png" alt="Chandigarh - Amristar">
-            <section class="overlay">
-                <h2>Chandigarh - Amristar</h2>
-				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
-            </section>
-            <section class="dummy_overlay_inbound">
-                                </section>
-			</section>
+		  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >		
+        <section id="myCarousel" class="carousel align_width">
+          <section>
+            <div class ="inner_text_seven_night">
+                <span>
+                    <h3 class="one">7</h3>
+                    <h3 class="night">Night</h3>
+                    <h3 class="two">8 </h3>
+                    <h3 class="and">&</h3>
+                    <h3 class="days"> Days</h3>
+                    <h3 class="pack"> Packages</h3>
+                </span>
+            </div>
+           <ul class="carousel-inner list_items" style="top: -21px;">
+              <li class="item active">			  
+      			     <section id="amristar" class="hovereffect">
+                    <img class="img-responsive" src="images/domestic/amristar.png" alt="Chandigarh - Amristar">
+                    <section class="overlay">
+                        <h2 class="bottom_topic7">Chandigarh - Amristar</h2>		
+                    </section>
+                   <section class="dummy_overlay_inbound"></section>
+      			      </section>
                </li>
-              <li>
-			  <section id="manali" class="hovereffect">
-        <img class="img-responsive" src="images/domestic/manali.png" alt="Delhi - Kulu manali">
-        <div class ="inner_text1">
-                                <span><h3 class="one">7</h3> <h3 class="night">Night</h3><h3 class="two">8 </h3>
-                                <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                                </span>
-                                 </div>
-            <section class="overlay">
-                <h2  class="my">Delhi - Kulu manali</h2>
-				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
-            </section>
-            <section class="dummy_overlay_inbound">
-                                </section>
-			</section>
-               </li>
-              <li>
-			  <section id="shimla" class="hovereffect">
-        <img class="img-responsive" src="images/domestic/shimla.png" alt="Jaipur - Shimla">
-            <section class="overlay">
-                <h2>Jaipur - Shimla</h2>
-				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
-            </section>
-            <section class="dummy_overlay_inbound">
-                                </section>
-			</section>
-               </li>
-			   
+              <li class="item">
+  			       <section id="manali" class="hovereffect">
+                <img class="img-responsive" src="images/domestic/manali.png" alt="Delhi - Kulu manali">                 
+                  <section class="overlay">
+                      <h2  class="bottom_topic7">Delhi - Kulu manali</h2>
+                  </section>
+                  <section class="dummy_overlay_inbound"></section>
+  		         </section>
+              </li>
+              <li class="item"> 
+			          <section id="shimla" class="hovereffect">
+                  <img class="img-responsive" src="images/domestic/shimla.png" alt="Jaipur - Shimla">
+                  <section class="overlay">
+                    <h2 class="bottom_topic7">Jaipur - Shimla</h2> 
+                  </section>
+                  <section class="dummy_overlay_inbound"></section>
+	              </section>
+               </li>			   
             </ul>
-          </section>
-          <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-left"></em></a> <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a> 
-          
-          </section> <div class="img_right">
-                    <div class="in_img4"></div>
-                    </div>
-		  </section> 
-		
-            </section>
-         </section>
+          </section>         
+          </section> 
+          <div class="img_right">
+            <div class="in_img4"></div>
+          </div>
+	      </section>
+      </section>
+    </section>
         
          
          
@@ -370,7 +345,7 @@
       <?php include("footer.php"); ?>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-     <script src="js/jquery-1.11.3.min.js"></script>
+       <script src="js/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include insectionidual files as needed -->
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap-affix.js"></script>
@@ -398,6 +373,11 @@
           });      
         });
       </script> 
+           <script>
+    $('.carousel').carousel({
+        interval: 4000 //changes the speed
+    });
+    </script>
   <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
   <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
   <script src="js/custom.js"></script>

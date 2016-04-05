@@ -125,125 +125,109 @@
 
 
 <?php include("pop_up.php"); ?>
-
-
-
-
-
-
-
-
-      <main >
-         <section class="container oza-container">
-
+    <main>
+        <section class="container oza-container">
             <section class="row oza-explore-world">
-               <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                  <h2 class="oza-head-title">International Packages</h2>
-                  <h3 class="oza-sub-title">Relax… You’re with us! We make it simple.</h3>
-				     <!-- <h3 class="oza-domestic-head-sub-title text-center">Plan your gateway today</h3> -->
-               </article>
-
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                <div class="img_right">
-                      <div class="dubai"></div>
-                </div><!--img_right-->
-                <header id="myCarousel" class="carousel slide">
-                <div class ="inner_text1">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-                    <!-- Indicators -->
-                    <!-- <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol> -->
-
-                    <!-- Wrapper for Slides -->
-                    
-                    <div class="carousel-inner image_size dubai_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/dubai.png">
-                                 
-                            </div>
-
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
+                <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="oza-head-title">International Packages</h2>
+                    <h3 class="oza-sub-title">Relax… You’re with us! We make it simple.</h3>				 
+                </article>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">             
+                    <div class="img_right">
+                        <div class="dubai"></div>
+                    </div><!--img_right-->
+                    <header id="myCarousel" class="carousel slide">
+                        <div class ="inner_text_oubound">
+                            <span>
+                               <h3 class="one">1</h3> 
+                               <h3 class="night">Night</h3>
+                               <h3 class="two"> 2 </h3>
+                               <h3 class="and">&</h3>
+                               <h3 class="days"> Days</h3>
+                               <h3 class="pack"> Packages</h3>
+                            </span>
                         </div>
+                        <!-- Indicators -->
+                        <!-- <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol> -->
 
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                        <!-- Wrapper for Slides -->
+                        
+                        <div class="carousel-inner image_size dubai_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/dubai.png">                                 
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
-                        </div>
-                    </div>
-                    
-
-                   
-                </header>
-             
-                
-            </section>
-
-             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                
-                <header id="myCarousel" class="carousel slide image_sizer">
-                    <div class ="inner_text2">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
-                    <div class="carousel-inner image_size bali_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/bali.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                        </div>                  
+                    </header>                
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >           
+                    <header id="myCarousel" class="carousel slide image_sizer">
+                        <div class ="inner_text2">
+                            <span>
+                                <h3 class="one">1</h3> 
+                                <h3 class="night">Night</h3>
+                                <h3 class="two"> 2 </h3>
+                                <h3 class="and">&</h3>
+                                <h3 class="days"> Days</h3>
+                                <h3 class="pack"> Packages</h3>
+                            </span>
+                        </div><!-- Wrapper for Slides -->
+                        <div class="carousel-inner image_size bali_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/bali.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
+                            </div>
                         </div>
-                    </div>
-
                     <!-- Controls -->
                     <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
                         <!-- <span class="icon-prev"></span> -->
@@ -251,271 +235,254 @@
                     <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
                         <!-- <span class="icon-next"></span> -->
                     <!-- </a>  -->
-
-                </header>
-                <div class="img_right bali_height1">
-                      <div class="bali"></div>
-                </div><!--img_right-->
-                
-            </section>
-
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                <div class="img_right">
-                      <div class="paris"></div>
-                </div><!--img_right-->
-                <header id="myCarousel" class="carousel slide">
-                   <div class ="inner_text3">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
-                    <div class="carousel-inner image_size paris_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                    </header>
+                    <div class="img_right bali_height1">
+                          <div class="bali"></div>
+                    </div><!--img_right-->                    
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >             
+                    <div class="img_right">
+                          <div class="paris"></div>
+                    </div><!--img_right-->
+                    <header id="myCarousel" class="carousel slide">
+                       <div class ="inner_text3">
+                            <span>
+                                <h3 class="one">1</h3>
+                                <h3 class="night">Night</h3>
+                                <h3 class="two"> 2 </h3>
+                                <h3 class="and">&</h3>
+                                <h3 class="days"> Days</h3>
+                                <h3 class="pack"> Packages</h3>
+                            </span>
+                        </div><!-- Wrapper for Slides -->
+                        <div class="carousel-inner image_size paris_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    
-
-                </header>
-             
-                
-            </section>
-
-             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                
-                <header id="myCarousel" class="carousel slide image_sizer">
-                    <div class ="inner_text4">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
-                    <div class="carousel-inner image_size swiss_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                        </div> 
+                    </header>              
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
+                    <header id="myCarousel" class="carousel slide image_sizer">
+                        <div class ="inner_text4">
+                            <span>
+                              <h3 class="one">1</h3> 
+                              <h3 class="night">Night</h3>
+                              <h3 class="two"> 2 </h3>                          
+                              <h3 class="and">&</h3>
+                              <h3 class="days"> Days</h3>
+                              <h3 class="pack"> Packages</h3>
+                            </span>
+                        </div> <!-- Wrapper for Slides -->
+                        <div class="carousel-inner image_size swiss_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
                         </div>
-                    </div>
-
-                    
-
-                </header>
-                <div class="img_right swiss_height1">
-                      <div class="swiss"></div>
-                </div><!--img_right-->
-                
-            </section>
-
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                <div class="img_right">
-                      <div class="hongkong"></div>
-                </div><!--img_right-->
-                <header id="myCarousel" class="carousel slide">
-                   <div class ="inner_text5">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
-                    <div class="carousel-inner image_size hongkong_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/hongkong.png">
+                    </header>
+                    <div class="img_right swiss_height1">
+                          <div class="swiss"></div>
+                    </div><!--img_right-->
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                    <div class="img_right">
+                        <div class="hongkong"></div>
+                    </div><!--img_right-->
+                    <header id="myCarousel" class="carousel slide">
+                       <div class ="inner_text5">
+                            <span>
+                              <h3 class="one">1</h3> 
+                              <h3 class="night">Night</h3>
+                              <h3 class="two"> 2 </h3>
+                              <h3 class="and">&</h3>
+                              <h3 class="days"> Days</h3>
+                              <h3 class="pack"> Packages</h3>
+                            </span>
+                        </div><!-- Wrapper for Slides -->
+                        <div class="carousel-inner image_size hongkong_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/hongkong.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
                         </div>
-                    </div>
-
-                    
-
-                </header>
-             
-                
-            </section>
-
-             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                
-                <header id="myCarousel" class="carousel slide image_sizer">
-                    <div class ="inner_text6">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
-                    <div class="carousel-inner image_size turkey_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/turkey.png">
+                    </header>
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+                    <header id="myCarousel" class="carousel slide image_sizer">
+                        <div class ="inner_text6">
+                            <span>
+                                <h3 class="one">1</h3>
+                                <h3 class="night">Night</h3>
+                                <h3 class="two"> 2 </h3>                          
+                                <h3 class="and">&</h3>
+                                <h3 class="days"> Days</h3>
+                                <h3 class="pack"> Packages</h3>
+                          </span>
+                        </div><!-- Wrapper for Slides -->
+                        <div class="carousel-inner image_size turkey_height">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/turkey.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
                         </div>
-                    </div>
-
-
-                </header>
-                <div class="img_right">
-                      <div class="turkey"></div>
-                </div><!--img_right-->
-                
-            </section>
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >  
-             
-                <div class="img_right">
-                      <div class="southafrica"></div>
-                </div><!--img_right-->
-                <header id="myCarousel" class="carousel slide">
-                    <div class ="inner_text7">
-                      <span><h3 class="one">1</h3> <h3 class="night">Night</h3><h3 class="two"> 2 </h3>
-                      <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
-                      </span>
-                    </div>
-
-                    <!-- Wrapper for Slides -->
+                    </header>
+                    <div class="img_right">
+                          <div class="turkey"></div>
+                    </div><!--img_right-->
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >           
+                    <div class="img_right">
+                        <div class="southafrica"></div>
+                    </div><!--img_right-->
+                    <header id="myCarousel" class="carousel slide">
+                        <div class ="inner_text7">
+                            <span>
+                              <h3 class="one">1</h3> 
+                              <h3 class="night">Night</h3>
+                              <h3 class="two"> 2 </h3>                          
+                              <h3 class="and">&</h3>
+                              <h3 class="days"> Days</h3>
+                              <h3 class="pack"> Packages</h3>
+                            </span>
+                        </div><!-- Wrapper for Slides -->
                     <div class="carousel-inner image_size southafrica_height">
-                        <div class="item active">
-                            <!-- Set the first background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/southafrica.png">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/southafrica.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 1</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 1</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the second background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/swiss.png">
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/swiss.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 2</h2>
-                            </div> -->
-                        </div>
-                        <div class="item">
-                            <!-- Set the third background image using inline CSS below. -->
-                            <div class="fill">
-                              <img src="images/outbound_new/paris.png">
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill">
+                                  <img src="images/outbound_new/paris.png">
+                                </div>
+                                <!-- <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div> -->
                             </div>
-                            <!-- <div class="carousel-caption">
-                                <h2>Caption 3</h2>
-                            </div> -->
                         </div>
-                    </div>
-
-                    <!-- Controls -->
-                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
-                        <!-- <span class="icon-prev"></span> -->
-                    <!-- </a> -->
-                    <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
-                        <!-- <span class="icon-next"></span> -->
-                    <!-- </a>  -->
-
-                </header>               
-            </section>   
-
-         </section>
-      </main>
+                        <!-- Controls -->
+                        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
+                            <!-- <span class="icon-prev"></span> -->
+                        <!-- </a> -->
+                        <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
+                            <!-- <span class="icon-next"></span> -->
+                        <!-- </a>  -->
+                    </header>               
+                </section>  
+            </section>
+        </section>
+    </main>
       <?php include("footer.php"); ?>      
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="js/jquery-1.11.3.min.js"></script>
+          <script src="js/jquery.min.js"></script>
       <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
        <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
        <script src="js/custom.js"></script>
@@ -551,6 +518,11 @@
                $('body').addClass('loaded');
             }, 3000);
     </script>  
+     <script>
+    $('.carousel').carousel({
+        interval: 4000 //changes the speed
+    });
+    </script>
    <?php include("outbound_popup.php"); ?>     
    </body>
 </html>

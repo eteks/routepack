@@ -263,7 +263,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider12.png" alt="2" /></a>
+                  <a><img src="images/slider14.png" alt="2" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Singapore</h2>
                     <p class="slider-bullet-content"> 
@@ -434,13 +434,15 @@
 
          <section class="container">
             <section class="row oza-our-partner">
-               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-3"><img class="img-responsive partner-align" alt="Our Partner" src="images/partner/our-partner.png">
+               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-2 partner_width"><img class="img-responsive partner-align" alt="Our Partner" src="images/partner/our-partner.png">
                </article>
-               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-3"><img class="img-responsive partner-align" alt="Rocket" src="images/partner/rocket.jpg">
+               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-2 partner_width"><img class="img-responsive partner-align" alt="Rocket" src="images/partner/rocket.jpg">
                </article>
-               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-3"><img class="img-responsive partner-align" alt="Fernzwood" src="images/partner/fernzwood.png">
+               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-2 partner_width"><img class="img-responsive partner-align" alt="Fernzwood" src="images/partner/fernzwood.png">
                </article>
-               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-3"><img class="img-responsive partner-align" alt="Rapid" src="images/partner/rapid.jpg">
+               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-2 partner_width"><img class="img-responsive partner-align" alt="Rapid" src="images/partner/rapid.jpg">
+               </article>
+               <article class="col-xs-3 col-sm-4 col-md-3 col-lg-2 partner_width"><img class="img-responsive partner-align" alt="srilanka" src="images/partner/srilanka.png">
                </article>
             </section>
          </section>

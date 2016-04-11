@@ -149,30 +149,30 @@
                         <h3 class="pack"> Packages</h3>
                     </span>
                 </div>
-               <ul class="carousel-inner list_items align_width" style="left:-39px;top: 20px;">
+               <ul class="carousel-inner list_items align_width domestic_sec1">
                   <li class="item active">
-            			  <section id="yercaud" class="hovereffect">
-                      <img class="img-responsive" src="images/inbound_new/in_pondicherry1.png" alt="Yercaud-Hogenakkal">
+            			  <section id="pondicherry" class="hovereffect">
+                      <img class="img-responsive" id="pondicherry" src="images/inbound_new/in_pondicherry1.png" alt="Pondicherry">
                         <section class="overlay">
-                            <h2 class="pon">Yercaud-Hogenakkal</h2>
+                            <h2 class="pon">Pondicherry</h2>
           			        </section>
                         <section class="dummy_overlay_inbound"></section>
     			          </section>
     			        </li>
                   <li class="item">
-            			  <section id="valparai" class="hovereffect">                     
-                        <img class="img-responsive" src="images/inbound_new/in_pondicherry2.png" alt="Valparai-Pollachi">                      
+            			  <section id="yercaud" class="hovereffect">                     
+                        <img class="img-responsive" src="images/inbound_new/yercaudu.jpg" alt="yercaudu">                      
                         <section class="overlay">
-                            <h2 class="pon">Valpari-Pollachi</h2>
+                            <h2 class="pon">Yercaud - Hogenakkal</h2>
             				    </section>
                         <section class="dummy_overlay_inbound"></section>
           			    </section>
                   </li>
                   <li class="item">
-            			  <section id="pondicherry" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/pondichery.png" alt="pondichery">
+            			  <section id="valparai" class="hovereffect">
+                      <img class="img-responsive" src="images/inbound_new/valparai.jpg" alt="valparai">
                       <section class="overlay">
-                          <h2 class="pon">Pondicherry</h2>
+                          <h2 class="pon">Valpari-Pollachi</h2>
           			      </section>
                       <section class="dummy_overlay_inbound"></section>
             			 </section>		  
@@ -197,10 +197,10 @@
                             <h3 class="pack"> Packages</h3>
                         </span>
                     </div>      
-                <ul class="carousel-inner list_items"  style="top: 10px;">
+                <ul class="carousel-inner list_items domestic_sec2">
                   <li class="item active">			  
             			  <section id="bangalore" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/bangalore.png" alt="Bangalore - Mysore">
+                      <img class="img-responsive" src="images/inbound_new/bangalore.jpg" alt="Bangalore - Mysore">
                           <section class="overlay">
                               <h2 class="my">Bangalore - Mysore</h2>
               				<!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
@@ -211,7 +211,7 @@
                   </li>
                   <li class="item">
             			  <section id="mysore" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/mysore.png" alt="Mysore– Kodagu">                       
+                      <img class="img-responsive" src="images/inbound_new/mysore.jpg" alt="Mysore– Kodagu">                       
                           <section class="overlay">
                               <h2 class="my">Mysore - Kodagu</h2>
               				<!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
@@ -222,7 +222,7 @@
                   </li>
                   <li class="item">
             			  <section id="shimoga" class="hovereffect">
-                        <img class="img-responsive"  alt="Shimoga -Jog falls" src="images/domestic/mysore.png">
+                        <img class="img-responsive"  alt="Shimoga -Jog falls" src="images/inbound_new/shimago.jpg">
                         <section class="overlay">
                             <h2 class="my">Shimoga - Jog falls</h2>            
                         </section>
@@ -248,7 +248,7 @@
                           <h3 class="and">&</h3><h3 class="days"> Days</h3><h3 class="pack"> Packages</h3>
                           </span>
                        </div>
-                <ul class="carousel-inner list_items align_width" style="right:38px;top:0px">
+                <ul class="carousel-inner list_items align_width domestic_sec3">
                   <li class="item active">			  
     			          <section id="thiruvandrum" class="hovereffect">
                       <img class="img-responsive" src="images/domestic/trivandrum.png" alt="Trivandrum">
@@ -262,7 +262,7 @@
                   </li>
                   <li class="item">
     			          <section id="hyderabad" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/hyderabad.png" alt="Hyderabad - Warangal">                     
+                      <img class="img-responsive" src="images/inbound_new/hyderabad.jpg" alt="Hyderabad - Warangal">                     
                         <section class="overlay">
                           <h2 class="bottom_topic">Hyderabad - Warangal</h2>
     				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
@@ -273,7 +273,7 @@
                   </li>
                   <li class="item">
     			          <section id="ooty" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/ooty.png" alt="Ooty-Mysore">
+                      <img class="img-responsive" src="images/inbound_new/ooty.jpg" alt="Ooty-Mysore">
                       <section class="overlay">
                     <h2 class="bottom_topic">Ooty - Mysore</h2>
     				<!-- <p>Starting from &#8377; 4,000<sup>*</sup></p>  -->
@@ -301,10 +301,10 @@
                     <h3 class="pack"> Packages</h3>
                 </span>
             </div>
-           <ul class="carousel-inner list_items" style="top: -21px;">
+           <ul class="carousel-inner list_items domestic_sec4">
               <li class="item active">			  
       			     <section id="amristar" class="hovereffect">
-                    <img class="img-responsive" src="images/domestic/amristar.png" alt="Chandigarh - Amristar">
+                    <img class="img-responsive" src="images/inbound_new/Amristar.jpg" alt="Chandigarh - Amristar">
                     <section class="overlay">
                         <h2 class="bottom_topic7">Chandigarh - Amristar</h2>		
                     </section>
@@ -313,7 +313,7 @@
                </li>
               <li class="item">
   			       <section id="manali" class="hovereffect">
-                <img class="img-responsive" src="images/domestic/manali.png" alt="Delhi - Kulu manali">                 
+                <img class="img-responsive" src="images/inbound_new/kulumanali.jpg" alt="Delhi - Kulu manali">                 
                   <section class="overlay">
                       <h2  class="bottom_topic7">Delhi - Kulu manali</h2>
                   </section>
@@ -322,7 +322,7 @@
               </li>
               <li class="item"> 
 			          <section id="shimla" class="hovereffect">
-                  <img class="img-responsive" src="images/domestic/shimla.png" alt="Jaipur - Shimla">
+                  <img class="img-responsive" src="images/inbound_new/in_simla1.png" alt="Jaipur - Shimla">
                   <section class="overlay">
                     <h2 class="bottom_topic7">Jaipur - Shimla</h2> 
                   </section>

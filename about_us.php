@@ -132,7 +132,7 @@
          <section class="container oza-container">
             <section class="row oza-explore-world">
                <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                  <h2 class="oza-head-title">OozaaoO</h2>
+                  <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>  
                   <h3 class="oza-sub-title">Leisures Private Limited</h3>
                </article>
                <article class="col-xs-12 col-sm-8 col-md-8 col-lg-12">

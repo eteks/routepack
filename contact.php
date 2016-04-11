@@ -67,7 +67,7 @@
           <article class="col-xs-12 mobile-column1-contact">
             <div class="header-slide-content-contact">
                 <p class="header-offer1-contact"> Amazing </p>
-                <p class="header-holiday1-contact"> Tours for Your Dream Vacation <mark id="header-fade-content1">Dream Vacation </mark></h3>
+                <p class="header-holiday1-contact"> Tours for Your<mark id="header-fade-content1">Dream Vacation </mark></h3>
                 
                 
               </div>
@@ -103,7 +103,7 @@
             <div class="image_one_mountain-contact">
               <div class="header-slide-content-contact">
                 <p class="header-offer1-contact"> Amazing </p>
-                <p class="header-holiday1-contact"> Tours for Your Dream Vacation <mark id="header-fade-content1-contact">Dream Vacation </mark></h3>
+                <p class="header-holiday1-contact"> Tours for Your<mark id="header-fade-content1-contact">Dream Vacation </mark></h3>
                 
                 
               </div>
@@ -145,20 +145,20 @@
 	  
             <section class="container oza-container">
             <div id="map_area"></div>
-<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<h3 class="oza-contact-title oza-contact-locate">Locate us</h3>
-<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>
-<button class="btn btn-success oza-bg-none oza-border-zero oza-text-success">MAP</button>
-</article>
+			<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+			<h3 class="oza-contact-title oza-contact-locate">Locate us</h3>
+			<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>
+			<button class="btn btn-success oza-bg-none oza-border-zero oza-text-success">MAP</button>
+			</article>
 
 
-<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<h3 class="oza-contact-title oza-contact-call">Call us</h3>
-<p>+91 90039 99766</p>
-<!-- <p>+91 413-4300008 / 4300001 / 4300003</p>
- --><!-- <p>+91 9360206020 / 90039997766</p> -->
-
-</article>
+			<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+			<h3 class="oza-contact-title oza-contact-call">Call us</h3>
+			<p>+91 90039 99766</p>
+			<!-- <p>+91 413-4300008 / 4300001 / 4300003</p>
+			 --><!-- <p>+91 9360206020 / 90039997766</p> -->
+			
+			</article>
 
 
 <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center col-md-offset-3 col-md-offset-3">
@@ -197,6 +197,13 @@
 <a href="#" class="oza-contact-title oza-contact-google oza-text-success">Find us on google plus</a>
 </article>
 
+<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+<a href="#" class="oza-contact-title oza-contact-linkedin oza-text-success">Find us on linkedin</a>
+</article>
+
+<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+<a href="#" class="oza-contact-title oza-contact-twitter oza-text-success">Find us on twitter</a>
+</article>
 </section>
          
       </main>
@@ -244,7 +251,7 @@
                      '<div id="siteNotice">'+
                     '</div>'+
                     '<div id="bodyContent">'+
-                     '<p><b>e-Vinity</b></p>'+
+                     '<p><b>oozaaoo</b></p>'+
                      '<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>'+
                      '<p>info@evinity.com</p>'+
                      '<p>+91 - 413 - 2235600</p>'+
@@ -258,7 +265,7 @@
                 animation:google.maps.Animation.BOUNCE,
                 icon: 'images/map-marker.png',
                 map: map,
-                title: 'e-Vinity'
+                title: 'oozaaoo'
               });
             }
             google.maps.event.addDomListener(window, 'load', initialize);            

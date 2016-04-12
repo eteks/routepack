@@ -243,7 +243,7 @@
               var mapOptions = {
                 zoom: 13,
                 scrollwheel: false,
-                center: new google.maps.LatLng(11.954299,79.832727)
+                center: new google.maps.LatLng(11.935868, 79.816740)
               };
               var map = new google.maps.Map(document.getElementById('map_area'),
                   mapOptions);
@@ -253,7 +253,7 @@
                     '<div id="bodyContent">'+
                      '<p><b>oozaaoo</b></p>'+
                      '<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>'+
-                     '<p>info@evinity.com</p>'+
+                     '<p>info@oozaaoo.com</p>'+
                      '<p>+91 - 413 - 2235600</p>'+
                      '</div>'+
                      '</div>';

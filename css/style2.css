@@ -1131,12 +1131,22 @@
 
 
 .header-slide-content-contact {
-     height: 299px;
-    left: 227px;
+    height: 299px;
+    left: 0px;
     position: relative;
     text-align: left;
     top: 100px;
     width: 807px;
+}
+@media(min-width: 768px){
+	.header-slide-content-contact {
+	    height: 299px;
+	    left: 227px;
+	    position: relative;
+	    text-align: left;
+	    top: 100px;
+	    width: 807px;
+	}
 }
 .header-paragraph1-contact {
     color: #0a2846;

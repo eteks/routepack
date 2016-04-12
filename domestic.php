@@ -69,8 +69,8 @@
           <article class="col-xs-12 mobile-column1-domestic">
             <div class="header-slide-content-domestic">
                 <p class="header-paragraph1-domestic">Its Better to</p>
-                <p class="header-holiday1-domestic"> SEE SOMETHING <mark id="inbound_mark"> ONCE </mark> </h3>
-                <p class="header-offer1-domestic"> than to heard about it a<mark id="inbound_mark1-domestic"> Thousands <mark id="inbound_mark2">Times </mark></mark></p>
+                <p class="header-holiday1-domestic"> SEE SOMETHING <mark id="inbound_mark_inbound"> ONCE </mark> </h3>
+                <p class="header-offer1-domestic"> than to heard about it a<mark id="inbound_mark1_inbound"> Thousands <mark id="inbound_mark2_inbound">Times </mark></mark></p>
                 
                 
               </div>
@@ -133,7 +133,7 @@
             <h2 class="oza-domestic-head-title">Domestic Packages</h2>
             <h3 class="oza-domestic-sub-title">Relax...You're with us! We make it simple.</h3>
 	      </article>            
-        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >     
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section_height1">     
           <div class="img_right">
         		<div class="man1"></div>
           </div><!--img_right-->	
@@ -183,7 +183,7 @@
               <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><em class="glyphicon glyphicon-menu-right"></em></a>  -->
             </section>
         </section>               
-        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >        			   
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section_height2">        			   
   			  <!--  <h3 class="oza-domestic-head-sub-title text-center">2 Night and 3 Days Packages </h3>   -->      				
             <section id="myCarousel" class="carousel align_width">
               <section>
@@ -237,7 +237,7 @@
               <div class="in_img2"></div>
             </div>
   		  </section>    
-        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >       			   
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section_height">       			   
           <div class="img_right">
             <div class="in_img3"></div>
           </div>       				
@@ -288,7 +288,7 @@
   </section>
 		  
 		  
-		  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >		
+		  <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section_height">		
         <section id="myCarousel" class="carousel align_width">
           <section>
             <div class ="inner_text_seven_night">

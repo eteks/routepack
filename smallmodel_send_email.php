@@ -9,7 +9,7 @@
   $Infant = $_POST['Infant'];
   $Date_of_travel = $_POST['Date_of_travel'];
   $other_requirements = $_POST['other-requirements'];
-    $email_from = 'anbudanashok13@gmail.com';
+    $email_from = $Email;
  
     $email_subject = "New Feedback_Form submission";
  
@@ -27,7 +27,7 @@
  
 
  
-  $to = "sweetkannan05@gmail.com";
+  $to = "info@oozaaoo.com";
  
   $headers = "From: $email_from \r\n";
  

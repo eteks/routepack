@@ -6,7 +6,7 @@ $Countryvisited = $_POST['Countryvisited'];
   $Email = $_POST['Email'];
   $Date_of_depature = $_POST['Date_of_depature'];
   $textarea_feedback = $_POST['textarea_feedback'];
-    $email_from = 'anbudanashok13@gmail.com';
+    $email_from = $Email;
  
     $email_subject = "New Feedback_Form submission";
  
@@ -19,7 +19,7 @@ $Countryvisited = $_POST['Countryvisited'];
 							"Here is the textarea_feedback:\n $textarea_feedback".
   
  
-  $to = "sweetkannan05@gmail.com";
+  $to = "info@oozaaoo.com";
  
   $headers = "From: $email_from \r\n";
  

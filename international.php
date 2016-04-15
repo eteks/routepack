@@ -46,7 +46,7 @@
                      <span class="sr-only">Toggle Navigation</span>
                      <span class="icon-bar glyphicon glyphicon-tasks"></span>
                      </button>
-                     <a class="brand" title="Oozaaoo" href="index.html"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
+                     <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
                      <nav class="collapse navbar-collapse  oza-sidebar-offcanvas" role="navigation">
                         <ul class="nav navbar-nav oza-header-menu-nav text-uppercase">
                            <li class="menu-home active"><a href="index.php" title="Home">Home</a></li>

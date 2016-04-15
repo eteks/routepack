@@ -45,7 +45,7 @@
                      <span class="sr-only">Toggle Navigation</span>
                      <span class="icon-bar glyphicon glyphicon-tasks"></span>
                      </button>
-                     <a class="brand" title="Oozaaoo" href="index.html"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
+                     <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
                      <nav class="collapse navbar-collapse  oza-sidebar-offcanvas" role="navigation">
                         <ul class="nav navbar-nav oza-header-menu-nav text-uppercase">
                            <li class="menu-home active"><a href="index.php" title="Home">Home</a></li>
@@ -189,20 +189,20 @@
 </article>
 
 <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<a href="#" class="oza-contact-title oza-contact-facebook oza-text-success">Find us on facebook</a>
+<a href="http://www.facebook.com/oozaaoo" class="oza-contact-title oza-contact-facebook oza-text-success">Find us on facebook</a>
 </article>
 
 
 <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<a href="#" class="oza-contact-title oza-contact-google oza-text-success">Find us on google plus</a>
+<a href="https://plus.google.com/explore/oozaaoo" class="oza-contact-title oza-contact-google oza-text-success">Find us on google plus</a>
 </article>
 
 <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<a href="#" class="oza-contact-title oza-contact-linkedin oza-text-success">Find us on linkedin</a>
+<a href="https://www.linkedin.com/oozaaoo" class="oza-contact-title oza-contact-linkedin oza-text-success">Find us on linkedin</a>
 </article>
 
 <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-<a href="#" class="oza-contact-title oza-contact-twitter oza-text-success">Find us on twitter</a>
+<a href="https://twitter.com/oozaaoo" class="oza-contact-title oza-contact-twitter oza-text-success">Find us on twitter</a>
 </article>
 </section>
          

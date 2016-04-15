@@ -102,7 +102,7 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-mobile">Mobile<sup>*</sup></label>
-                   <input type="number" class="form-control" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
+                   <input type="text" class="form-control" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-email">Email<sup>*</sup></label>

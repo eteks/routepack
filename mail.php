@@ -12,7 +12,7 @@
 	}
 	$send = mail($admin_email,$title, $comment, "From:" . $email);	
 	if($send){
-		echo 'Your request has been submitted successfully.Our excutive will contact you soon.Please give us time to serve you better';
+		echo 'Your request has been submitted successfully.';
 	}
 	else{
 		echo 'Your request is not submitted due to some technical problem.Please send it later';

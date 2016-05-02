@@ -48,7 +48,7 @@
                      <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
                      <nav class="collapse navbar-collapse  oza-sidebar-offcanvas" role="navigation">
                         <ul class="nav navbar-nav oza-header-menu-nav text-uppercase">
-                           <li class="menu-home active"><a href="index.php" title="Home">Home</a></li>
+                           <li class="menu-home"><a href="index.php" title="Home">Home</a></li>
                            <li class="menu-about-us"><a href="about_us.php" title="About Us">About Us</a></li>
                            <li class="menu-domestic"><a href="domestic.php" title="Inbound">Inbound</a></li>
                            <li class="menu-international"><a href="international.php" title="Outbound">Outbound</a></li>
@@ -148,7 +148,7 @@
 			<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 			<h3 class="oza-contact-title oza-contact-locate">Locate us</h3>
 			<p>No 7, Chandrasekaran Street Iyyanar Nagar, Pillaitottam, Pondicherry - 605013</p>
-			<button class="btn btn-success oza-bg-none oza-border-zero oza-text-success">MAP</button>
+			<!-- <button class="btn btn-success oza-bg-none oza-border-zero oza-text-success">MAP</button> -->
 			</article>
 
 

@@ -49,7 +49,7 @@
                      <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
                      <nav class="collapse navbar-collapse  oza-sidebar-offcanvas" role="navigation">
                         <ul class="nav navbar-nav oza-header-menu-nav text-uppercase">
-                           <li class="menu-home active"><a href="index.php" title="Home">Home</a></li>
+                           <li class="menu-home"><a href="index.php" title="Home">Home</a></li>
                            <li class="menu-about-us"><a href="about_us.php" title="About Us">About Us</a></li>
                            <li class="menu-domestic"><a href="domestic.php" title="Inbound">Inbound</a></li>
                            <li class="menu-international"><a href="international.php" title="Outbound">Outbound</a></li>

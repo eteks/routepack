@@ -40,7 +40,21 @@ jQuery(document).ready(function(){
  		$('body').css('overflow-x','hidden');
  		$('body').css('padding-right','0');
 	});
-
+	
+	// $('.nav li a').click(function(){
+	    // $('li a').removeClass("active");
+	    // $(this).addClass("active");
+	// });
+	 // $('.nav li').click(function() {
+    	// $('.nav li').removeClass('selected');
+	    // $(this).addClass('selected');
+	// });   
+	$(".nav li").click(function(){
+    var href = $(this).find('a').attr('href');
+    if (href === window.location.pathname) {
+      $(this).addClass('selected');
+    }
+  });
 
 });
 

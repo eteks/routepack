@@ -51,7 +51,7 @@ In ancient times Pollachi was known as ‘Pollil Vaichi’ which means “The la
 <div class="bangalore_popup popup" style="display:none">
 	<div class="popup_content">
 		<div class="close"></div>
-		<h2>Banglore – Mysore(2 Night 3 Days)</h2>
+		<h2>Banglore - Mysore(2 Night 3 Days)</h2>
 		<p class="place">
 			<strong>Where You do go:</strong><br><p class="covers"> Lalbagh-cubbonpark-iskontemple-Mysore Palace-Jaganmohan Palace & Art Gallery-Srirangapatnam Fort and Obelisk-Chamundeswari temple-Sri Ranganathaswamy temple-St. Philomena's Church.</p>
 		</p>
@@ -68,7 +68,7 @@ There is a touch of beauty in everything concerning Mysore, the Karnataka city. 
 <div class="mysore_popup popup" style="display:none">
 	<div class="popup_content">
 		<div class="close"></div>
-		<h2>Mysore – Kodagu(2 Night 3 Days)</h2>
+		<h2>Mysore - Kodagu(2 Night 3 Days)</h2>
 		<p class="place">
 			<strong>Where You do go:</strong><br><p class="covers"> Mysore Palace-Jaganmohan Palace & Art Gallery-Srirangapatnam Fort and Obelisk-Chamundeswari temple-Sri Ranganathaswamy temple-St. Philomena's Church-Chelavara Falls.</p>
 		</p>
@@ -151,7 +151,7 @@ Warangal, located in Telangana is a beautiful city with a glorious past. We find
 		<div class="close"></div>
 		<h2>Jaipur - Shimla(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib-aj mahal- agra fort - fatehpur sikri - Amer fort - city palace-jaipur - hawa mahal - nahargarh fort - jaigarh fort - jantar mantar-birla mandir-the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen.
+			<strong>Where You do go:</strong><br><p class="covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib-aj mahal- agra fort - fatehpur sikri - Amer fort - city palace-jaipur - hawa mahal - nahargarh fort - jaigarh fort - jantar mantar-birla mandir-the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen.
 .</p>
 		</p>
 		<p class="sub_title"><strong>Jaipur - Shimla</strong></p>
@@ -168,7 +168,7 @@ Warangal, located in Telangana is a beautiful city with a glorious past. We find
 		<div class="close"></div>
 		<h2>Chandigarh - Amristar(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib-sukhna lake- rose garden- government museum and art gallery- zakir hussain rose garden- open hand monument-chattbir zoo-the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen-Harmandir sahib- jallianwala bagh- durgiana temple- akal takht- summer palace of maharaja ranji-wagah border ceremony
+			<strong>Where You do go:</strong><br><p class="covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib-sukhna lake- rose garden- government museum and art gallery- zakir hussain rose garden- open hand monument-chattbir zoo-the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen-Harmandir sahib- jallianwala bagh- durgiana temple- akal takht- summer palace of maharaja ranji-wagah border ceremony
 .</p>
 		</p>
 		<p class="sub_title"><strong>Chandigarh - Amristar</strong></p>
@@ -185,7 +185,7 @@ Warangal, located in Telangana is a beautiful city with a glorious past. We find
 		<div class="close"></div>
 		<h2>Delhi - Kulu manali(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib- the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen-solang valley- hidimba devi temple- rohtang pass – pandoh dam- bhrigu lake – bijli mahadev – manali sanctuary- pin valley national park.
+			<strong>Where You do go:</strong><br><p class="covers">red fort-aksharadam temple-india gate- lotus temple-lodi gardens- qutub minor – humayun tomb- gurudwara bangla sahib- the ridge, Christ church, jakhoo- mall road- summer hill- shimla glen-solang valley- hidimba devi temple- rohtang pass – pandoh dam- bhrigu lake – bijli mahadev – manali sanctuary- pin valley national park.
 .</p>
 		</p>
 		<p class="sub_title"><strong>Delhi - Kulu manali</strong></p>

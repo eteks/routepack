@@ -128,7 +128,7 @@
 		<div class="close"></div>
 		<h2>Shanghai(3 Night 4 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Shanghai city tour</p>
+			<strong>Where You do go:</strong><br><p class="covers">Shanghai city tour</p>
 		<p class="sub_title"><strong>Shanghai</strong></p>
 		<div class="contents">
 			<span>Enormous Shanghai, on China’s central coast, is the country's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises Pudong’s futuristic skyline, including 632m Shanghai Tower and the Oriental Pearl TV Tower, with distinctive pink spheres. Sprawling Yuyuan Garden has traditional pavilions, towers and ponds.
@@ -143,7 +143,7 @@
 		<div class="close"></div>
 		<h2>Singapore(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Night Safari-sunset at Sentosa-universal Studio.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Night Safari-sunset at Sentosa-universal Studio.</p>
 		</p>
 		<p class="sub_title"><strong>Singapore</strong></p>
 		<div class="contents">
@@ -159,7 +159,7 @@
 		<div class="close"></div>
 		<h2>Seychelles(3 Night 4 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Seychelles-Mahe Island.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Seychelles-Mahe Island.</p>
 		</p>
 		<p class="sub_title"><strong>Seychelles</strong></p>
 		<div class="contents">
@@ -175,7 +175,7 @@
 		<div class="close"></div>
 		<h2>Ladakh(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Monasteries-Khardongla Pass-Pangong Lake.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Monasteries-Khardongla Pass-Pangong Lake.</p>
 		</p>
 		<p class="sub_title"><strong>Ladakh</strong></p>
 		<div class="contents">
@@ -191,7 +191,7 @@
 		<div class="close"></div>
 		<h2>Amsterdam(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Amsterdam City tour.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Amsterdam City tour.</p>
 		</p>
 		<p class="sub_title"><strong>Amsterdam</strong></p>
 		<div class="contents">
@@ -206,7 +206,7 @@
 		<div class="close"></div>
 		<h2>Paris(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Paris city tour-Panoramic tour of West End and City of London-St Paul's Cathedral.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Paris city tour-Panoramic tour of West End and City of London-St Paul's Cathedral.</p>
 		</p>
 		<p class="sub_title"><strong>Paris</strong></p>
 		<div class="contents">
@@ -221,7 +221,7 @@
 		<div class="close"></div>
 		<h2>Glimpse(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Washington D.C-Philadelphia-New York.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Washington D.C-Philadelphia-New York.</p>
 		</p>
 		<p class="sub_title"><strong>Glimpse</strong></p>
 		<div class="contents">
@@ -236,7 +236,7 @@
 		<div class="close"></div>
 		<h2>Myanmar(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Yangon-Bagan-Mandalay.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Yangon-Bagan-Mandalay.</p>
 		</p>
 		<p class="sub_title"><strong>Myanmar</strong></p>
 		<div class="contents">
@@ -252,7 +252,7 @@
 		<div class="close"></div>
 		<h2>China(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Kunming-Beijing-Xian.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Kunming-Beijing-Xian.</p>
 		</p>
 		<p class="sub_title"><strong>China</strong></p>
 		<div class="contents">
@@ -267,7 +267,7 @@
 		<div class="close"></div>
 		<h2>Kuwait(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Kuwait-The Kuwait Towers-The Liberation Tower-Avenues Mall-The Aquarium-Scientific Center-Souk Mubarakia-Sief Palace-House of Mirrors-Sadu House-Diving & Snorkeling-Kuwait Beaches-The Grand Mosque-National Museum-Failaka Islands.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Kuwait-The Kuwait Towers-The Liberation Tower-Avenues Mall-The Aquarium-Scientific Center-Souk Mubarakia-Sief Palace-House of Mirrors-Sadu House-Diving & Snorkeling-Kuwait Beaches-The Grand Mosque-National Museum-Failaka Islands.</p>
 		</p>
 		<p class="sub_title"><strong>Kuwait</strong></p>
 		<div class="contents">
@@ -283,7 +283,7 @@
 		<div class="close"></div>
 		<h2>Athens(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Athens City Tour.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Athens City Tour.</p>
 		</p>
 		<p class="sub_title"><strong>Athens</strong></p>
 		<div class="contents">
@@ -298,7 +298,7 @@
 		<div class="close"></div>
 		<h2>Korea(4 Night 5 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Seoul-Mt.Sorak-Danyang-Yeoju-Seoul City Tour.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Seoul-Mt.Sorak-Danyang-Yeoju-Seoul City Tour.</p>
 		</p>
 		<p class="sub_title"><strong>Korea</strong></p>
 		<div class="contents">
@@ -313,7 +313,7 @@
 		<div class="close"></div>
 		<h2>Swiss(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Interlaken-Lucerne-Zurich.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Interlaken-Lucerne-Zurich.</p>
 		</p>
 		<p class="sub_title"><strong>Swiss</strong></p>
 		<div class="contents">
@@ -328,7 +328,7 @@
 		<div class="close"></div>
 		<h2>Japan(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Tokyo-Mt. Fuji-Hakone-Kyoto – Nara.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Tokyo-Mt. Fuji-Hakone-Kyoto – Nara.</p>
 		</p>
 		<p class="sub_title"><strong>Japan</strong></p>
 		<div class="contents">
@@ -343,7 +343,7 @@
 		<div class="close"></div>
 		<h2>Cyprus(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Paphos-Curium-Troodos-Kykkos-Nicosia-Lefkara.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Paphos-Curium-Troodos-Kykkos-Nicosia-Lefkara.</p>
 		</p>
 		<p class="sub_title"><strong>Cyprus</strong></p>
 		<div class="contents">
@@ -358,7 +358,7 @@
 		<div class="close"></div>
 		<h2>Russia(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Moscow-St. Petersburg.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Moscow-St. Petersburg.</p>
 		</p>
 		<p class="sub_title"><strong>Russia</strong></p>
 		<div class="contents">
@@ -373,7 +373,7 @@
 		<div class="close"></div>
 		<h2>Syria(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Antakya-Aleppo-Krak Des Chevaliers-Palmyra-Maalula-Damascus.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Antakya-Aleppo-Krak Des Chevaliers-Palmyra-Maalula-Damascus.</p>
 		</p>
 		<p class="sub_title"><strong>Syria</strong></p>
 		<div class="contents">
@@ -388,7 +388,7 @@
 		<div class="close"></div>
 		<h2>Bhutan(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Paro-Thimphu-Punakha /Wangdi.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Paro-Thimphu-Punakha /Wangdi.</p>
 		</p>
 		<p class="sub_title"><strong>Bhutan</strong></p>
 		<div class="contents">
@@ -403,7 +403,7 @@
 		<div class="close"></div>
 		<h2>Vietnam(5 Night 6 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Hanoi-Halong Bay-Hue-Danang-Hoi An-Ho Chi Minh City.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Hanoi-Halong Bay-Hue-Danang-Hoi An-Ho Chi Minh City.</p>
 		</p>
 		<p class="sub_title"><strong>Vietnam</strong></p>
 		<div class="contents">
@@ -418,7 +418,7 @@
 		<div class="close"></div>
 		<h2>Kenya(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Nairobi-Aberdares-Mount Kneya-Lake Nakuru-Masai Mara.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Nairobi-Aberdares-Mount Kneya-Lake Nakuru-Masai Mara.</p>
 		</p>
 		<p class="sub_title"><strong>Kenya</strong></p>
 		<div class="contents">
@@ -433,7 +433,7 @@
 		<div class="close"></div>
 		<h2>Hongkong(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Hong Kong city tour-Ocean Park Hong Kong-Hong Kong Disneyland.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Hong Kong city tour-Ocean Park Hong Kong-Hong Kong Disneyland.</p>
 		</p>
 		<p class="sub_title"><strong>Hongkong</strong></p>
 		<div class="contents">
@@ -448,7 +448,7 @@
 		<div class="close"></div>
 		<h2>Italy(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Venice-Florence-Rome.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Venice-Florence-Rome.</p>
 		</p>
 		<p class="sub_title"><strong>Italy</strong></p>
 		<div class="contents">
@@ -463,7 +463,7 @@
 		<div class="close"></div>
 		<h2>New Zealand(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Christchurch-Queenstown-Glacier region.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Christchurch-Queenstown-Glacier region.</p>
 		</p>
 		<p class="sub_title"><strong>New Zealand</strong></p>
 		<div class="contents">
@@ -479,7 +479,7 @@
 		<div class="close"></div>
 		<h2>Australia(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Gold Coast’s-Cairns.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Gold Coast’s-Cairns.</p>
 		</p>
 		<p class="sub_title"><strong>Australia</strong></p>
 		<div class="contents">
@@ -495,7 +495,7 @@
 		<div class="close"></div>
 		<h2>America(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">New York-New York City-Atlantic City-Washington D.C.-Buffalo-hiladelphia.</p>
+			<strong>Where You do go:</strong><br><p class="covers">New York-New York City-Atlantic City-Washington D.C.-Buffalo-hiladelphia.</p>
 		</p>
 		<p class="sub_title"><strong>America</strong></p>
 		<div class="contents">
@@ -510,7 +510,7 @@
 		<div class="close"></div>
 		<h2>Morocco(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Casablanca-Rabat-Fes Ifrane-Beni Mellal-Marrakech.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Casablanca-Rabat-Fes Ifrane-Beni Mellal-Marrakech.</p>
 		</p>
 		<p class="sub_title"><strong>Morocco</strong></p>
 		<div class="contents">
@@ -525,7 +525,7 @@
 		<div class="close"></div>
 		<h2>Philiphines(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Manila-Boracay-Cebu.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Manila-Boracay-Cebu.</p>
 		</p>
 		<p class="sub_title"><strong>Philiphines</strong></p>
 		<div class="contents">
@@ -540,7 +540,7 @@
 		<div class="close"></div>
 		<h2>Poland(6 Night 7 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Warsaw-Czestochowa-Zakopane-Krakow-Auschwitz-Wieliczka.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Warsaw-Czestochowa-Zakopane-Krakow-Auschwitz-Wieliczka.</p>
 		</p>
 		<p class="sub_title"><strong>Poland</strong></p>
 		<div class="contents">
@@ -555,7 +555,7 @@
 		<div class="close"></div>
 		<h2>Egypt(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Cairo-Aswan-Luxor.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Cairo-Aswan-Luxor.</p>
 		</p>
 		<p class="sub_title"><strong>Egypt</strong></p>
 		<div class="contents">
@@ -570,7 +570,7 @@
 		<div class="close"></div>
 		<h2>Tibet(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">ex-Kathmandu-Lhasa-Gyantse-Shigatse-Xegar-Shakya monastery-Zhangmu.</p>
+			<strong>Where You do go:</strong><br><p class="covers">ex-Kathmandu-Lhasa-Gyantse-Shigatse-Xegar-Shakya monastery-Zhangmu.</p>
 		</p>
 		<p class="sub_title"><strong>Tibet</strong></p>
 		<div class="contents">
@@ -585,7 +585,7 @@
 		<div class="close"></div>
 		<h2>Turkey(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Istanbul-Kayseri-Cappadocia-Izmir-Kusadasi.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Istanbul-Kayseri-Cappadocia-Izmir-Kusadasi.</p>
 		</p>
 		<p class="sub_title"><strong>Turkey</strong></p>
 		<div class="contents">
@@ -599,7 +599,7 @@
 		<div class="close"></div>
 		<h2>Kilimanjaro(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Moshi-Machame-Shira-Barranco-Barafu-Mweka.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Moshi-Machame-Shira-Barranco-Barafu-Mweka.</p>
 		</p>
 		<p class="sub_title"><strong>Kilimanjaro</strong></p>
 		<div class="contents">
@@ -614,7 +614,7 @@
 		<div class="close"></div>
 		<h2>Mongolia(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Ulaanbaatar-Terelj National Park-Naadam Festival-Naadam Horse race and Karakorum-Erdene-Zuu.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Ulaanbaatar-Terelj National Park-Naadam Festival-Naadam Horse race and Karakorum-Erdene-Zuu.</p>
 		</p>
 		<p class="sub_title"><strong>Mongolia</strong></p>
 		<div class="contents">
@@ -630,7 +630,7 @@
 		<div class="close"></div>
 		<h2>Uganda(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Entebbe-Kampala-Murchison Falls National Park-‘Mountains of the Moon-Queen Elizabeth National Park-Kyambura Gorge-Gorillas Trekking.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Entebbe-Kampala-Murchison Falls National Park-‘Mountains of the Moon-Queen Elizabeth National Park-Kyambura Gorge-Gorillas Trekking.</p>
 		</p>
 		<p class="sub_title"><strong>Uganda</strong></p>
 		<div class="contents">
@@ -645,7 +645,7 @@
 		<div class="close"></div>
 		<h2>South Africa(7 Night 8 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Johannesburg-Port Elizabeth-the Garden Route-Oudtshoorn - the Feather Capital-Cape Town.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Johannesburg-Port Elizabeth-the Garden Route-Oudtshoorn - the Feather Capital-Cape Town.</p>
 		</p>
 		<p class="sub_title"><strong>South Africa</strong></p>
 		<div class="contents">
@@ -660,7 +660,7 @@
 		<div class="close"></div>
 		<h2>Israel(9 Night 10 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers">Jerusalem-Old City-New City-Qumran-Massada-Dead Sea-Tel Aviv-Caesarea-Megiddo-Druze Villages-Galilee-Safed-Golan Heights-Winery-Galilee-Sea Of Galilee-Nazareth.</p>
+			<strong>Where You do go:</strong><br><p class="covers">Jerusalem-Old City-New City-Qumran-Massada-Dead Sea-Tel Aviv-Caesarea-Megiddo-Druze Villages-Galilee-Safed-Golan Heights-Winery-Galilee-Sea Of Galilee-Nazareth.</p>
 		</p>
 		<p class="sub_title"><strong>Israel</strong></p>
 		<div class="contents">

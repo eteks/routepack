@@ -34,11 +34,11 @@
 <div class="malasia_popup popup popup_center_align" style="display:none">
 	<div class="popup_content">
 		<div class="close"></div>
-		<h2>Malasia(2 Night 3 Days)</h2>
+		<h2>Malaysia(2 Night 3 Days)</h2>
 		<p class="place">
 			<strong>Where You do go:</strong><br><p class="covers">Kuala Lumpur-Genting Highlands.</p>
 		</p>
-		<p class="sub_title"><strong>Malasia</strong></p>
+		<p class="sub_title"><strong>Malaysia</strong></p>
 		<div class="contents">
 			<span>Malaysia is a Southeast Asian country occupying the Malaysian Peninsula and part of the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European influences. The sprawling capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts such as Bukit Bintang and skyscrapers including the iconic, 451m-tall Petronas Twin Towers.</span>
 		</div>
@@ -49,13 +49,13 @@
 <div class="combodia_popup popup" style="display:none">
 	<div class="popup_content">
 		<div class="close"></div>
-		<h2>Cambodia(3 Night 2 Days)</h2>
+		<h2>Combodia(3 Night 2 Days)</h2>
 		<p class="place">
 			<strong>Where You do go:</strong><br><p class="covers">Siem Reap</p>
 		</p>
-		<p class="sub_title"><strong>Cambodia</strong></p>
+		<p class="sub_title"><strong>Combodia</strong></p>
 		<div class="contents">
-			<span>Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Its busy capital, Phnom Penh, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest lie ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire.
+			<span>Combodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Its busy capital, Phnom Penh, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest lie ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire.
 </span>
 		</div>
 		<div class="clear"></div>		

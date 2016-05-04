@@ -201,7 +201,7 @@
                                 <div class="fill">
                                   <img id="combodia" src="images/outbound_new/combadia.png">
                                   <section class="overlay_outbound">
-                            		<h2 class="overlay_text">Combadia</h2>
+                            		<h2 class="overlay_text">Combodia</h2>
           			        	  </section>
                         		 <section class="dummy_overlay_outbound"></section>                                 
                                 </div>

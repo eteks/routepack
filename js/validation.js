@@ -313,6 +313,8 @@ jQuery(document).ready(function(){
 			}
 		});
 		
+
+
 		content.push({"name":"formname","value":formname});
 		if(res){
 			$.ajax({
@@ -320,7 +322,7 @@ jQuery(document).ready(function(){
 				type: 'POST',
 				data: content,
 				success: function(data) {
-					if(data=='success') {
+					if(data.trim()=='success') {
 					alert("Your request has been submitted successfully.");
 					window.location.href="index.php";
 					}
@@ -332,6 +334,9 @@ jQuery(document).ready(function(){
 			});
 			return false;
 		}
+
 	});
+
+
 
 });//END DOCUEMENT

@@ -251,12 +251,12 @@
                 <ul class="carousel-inner list_items align_width domestic_sec3">
                   <li class="item active">			  
     			          <section id="thiruvandrum" class="hovereffect">
-                      <img class="img-responsive" src="images/domestic/trivandrum.png" alt="Trivandrum">
+                      <img class="img-responsive" src="images/inbound_new/kanyakumari.jpg" alt="Trivandrum">
                       <section class="overlay">
                         <h2 class="bottom_topic">Kaniyakumari - Thiruvandrum</h2>
     				            <!-- <p>Starting from &#8377; 8,000<sup>*</sup></p>  -->
                       </section>
-                      <section class="dummy_overlay_inbound">
+                      <section class="dummy_overlay_inbound" id="dummy_overlay_inbound_Kaniyakumari">
                           </section>
     			          </section>
                   </li>
@@ -267,7 +267,7 @@
                           <h2 class="bottom_topic">Hyderabad - Warangal</h2>
     				              <!-- <p>Starting from &#8377; 12,000<sup>*</sup></p>  -->
                         </section>
-                        <section class="dummy_overlay_inbound_hyd">
+                        <section class="dummy_overlay_inbound_hyd" id="hyderabad_width">
                           </section>
     			          </section>
                   </li>

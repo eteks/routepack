@@ -52,7 +52,7 @@
                            <li class="menu-about-us"><a href="about_us.php" title="About Us">About Us</a></li>
                            <li class="menu-domestic"><a href="domestic.php" title="Inbound">Inbound</a></li>
                            <li class="menu-international"><a href="international.php" title="Outbound">Outbound</a></li>
-                           <li class="menu-contact-us"><a href="contact.php" title="Contact Us">Contact Us</a></li>
+                           <li class="menu-contact-us selected"><a href="contact.php" title="Contact Us">Contact Us</a></li>
                         </ul>
                      </nav>
                   </section>
@@ -169,17 +169,17 @@
          <form id="contact_form" class="form-inline">
 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12 ">
                <label class="sr-only" for="oza-modal-name">Write your name here<sup>*</sup></label>
-               <input type="text" class="form-control" id="oza-modal-name" name="Name" placeholder="Write your name here*">
+               <input type="text" class="form-control contact_name" id="oza-modal-name" name="Name" placeholder="Write your name here*">
             </article>
 			
 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                <label class="sr-only" for="oza-modal-contact">How to contact you?<sup>*</sup></label>
-               <input type="email" class="form-control" id="oza-modal-contact" name="Email" placeholder="How to contact you?*">
+               <input type="text" class="form-control contact_email" id="oza-modal-contact" name="Email" placeholder="How to contact you?*">
             </article>
 			
 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                <label class="sr-only" for="oza-textarea">Write your message here*</label>
-               <textarea class="form-control" rows="3" id="oza-textarea" name="Msg" placeholder="Write your message here*"></textarea>
+               <textarea class="form-control contact_msg" rows="3" id="oza-textarea" name="Msg" placeholder="Write your message here*"></textarea>
             </article>
 
 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12 text-center">

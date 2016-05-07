@@ -50,7 +50,7 @@
               <a class="brand" title="Oozaaoo" href="index.php"><img class="logo" alt="Oozaaoo" src="images/logo.png"></a>   
               <nav class="collapse navbar-collapse  oza-sidebar-offcanvas" role="navigation">
                 <ul class="nav navbar-nav oza-header-menu-nav text-uppercase">
-                  <li class="menu-home"><a href="index.php" title="Home">Home</a></li>
+                  <li class="menu-home selected"><a href="index.php" title="Home">Home</a></li>
                   <li class="menu-about-us"><a href="about_us.php" title="About Us">About Us</a></li>
                   <li class="menu-domestic"><a href="domestic.php" title="Inbound">Inbound</a></li>
                   <li class="menu-international"><a href="international.php" title="Outbound">Outbound</a></li>
@@ -75,7 +75,7 @@
         </section>
         <section class="row">
           <article class="col-xs-6 mobile-column2">
-            <img class="img-responsive" src="images/boat.png" alt="image01"/>
+            <img class="img-responsive" src="images/boat.png" alt=""/>
           </article>
           <article class="col-xs-6">
           </article>
@@ -87,7 +87,7 @@
           <div class="da-slide">
           <!-- <h2>welcome</h2> -->
             <div class="image_one_mountain">
-              <img src="images/image_one_mountain.png" alt="image01"/>
+              <img src="images/image_one_mountain.png" alt=""/>
               <div class="container-fluid">
                 
                     <div class="header-slide-content2">
@@ -102,14 +102,14 @@
             </div>
             <!-- <a href="#" class="da-link">Read More</a> -->
             <div class="da-img image_two">
-              <img src="images/animation/2.png" alt="image01" />
+              <img src="images/animation/2.png" alt="" />
             </div>
           </div>
           <div class="da-slide">
             <!-- <h2>Revolution</h2>
             <p> </p> -->
             <div class="da-link image_one_two">
-              <img src="images/image_one_two.png" alt="image01"/>
+              <img src="images/image_one_two.png" alt=""/>
             </div>
             <div class="image_one_mountain">
               <div class="header-slide-content1">
@@ -122,13 +122,13 @@
               </div>
             </div>
             <div class="da-img image_one">
-              <img src="images/animation/3.png" alt="image01"/> 
+              <img src="images/animation/3.png" alt=""/> 
             </div>
           </div>
           <div class="da-slide">
             <h2>
               <div class="image_three_boat" style="z-index:10;">
-                <img src="images/boat.png" alt="image01"/>
+                <img src="images/boat.png" alt=""/>
               </div>
             </h2>
             <!-- <p> </p> -->
@@ -144,7 +144,7 @@
               </div>
             </div>
             <div class="da-img image_sea">
-              <img src="images/animation/1.png" alt="image01" />
+              <img src="images/animation/1.png" alt="" />
             </div>
           </div>
           <!-- <div class="da-slide">
@@ -180,7 +180,7 @@
                 </div>
               </ul>
                   <div class="col-xs-2 slider_image_mobile">
-                    <img src="images/mobile-img.png" alt="1" />
+                    <img src="images/mobile-img.png" alt="" />
                  </div>
                 </div>
               </div></div></div>
@@ -223,7 +223,7 @@
             <div id="slider1">
               <ul id="slider1Content">
                 <li class="slider1Image">
-                  <a><img src="images/slider11.png" alt="1" /></a>
+                  <a><img src="images/slider11.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Thailand</h2>
                     <p class="slider-bullet-content"> 
@@ -236,7 +236,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider13.png" alt="1" /></a>
+                  <a><img src="images/slider13.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Bali –Indonesia</h2>
                    
@@ -250,7 +250,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider12.png" alt="2" /></a>
+                  <a><img src="images/slider12.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Malaysia</h2>
                     <p class="slider-bullet-content"> 
@@ -263,7 +263,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider14.png" alt="2" /></a>
+                  <a><img src="images/slider14.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Singapore</h2>
                     <p class="slider-bullet-content"> 

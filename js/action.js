@@ -23,6 +23,26 @@ jQuery(document).ready(function() {
 			}
 		}
 		 });
+
+
+
+// $('#feed_submit').click(function() {
+//     location.reload();
+// });
+
+$("#feed_cancel_btn").on("click", function(event){
+        $('.feedback_form_clear').val("");
+        $('label.error').css("display","none");
+
+        // validator.resetForm();
+        // $("#feedback_form").clearValidation();
+    });
+$("#enquire_cancel_btn").on("click", function(event){
+        $('.enquire_form_clear').val("");
+         $('label.error').css("display","none");
+    });
+
+
 });
 // 		// Validate the e-mail.
 

@@ -52,7 +52,7 @@
                            <li class="menu-home"><a href="index.php" title="Home">Home</a></li>
                            <li class="menu-about-us"><a href="about_us.php" title="About Us">About Us</a></li>
                            <li class="menu-domestic"><a href="domestic.php" title="Inbound">Inbound</a></li>
-                           <li class="menu-international"><a href="international.php" title="Outbound">Outbound</a></li>
+                           <li class="menu-international selected"><a href="international.php" title="Outbound">Outbound</a></li>
                            <li class="menu-contact-us"><a href="contact.php" title="Contact Us">Contact Us</a></li>
                         </ul>
                      </nav>

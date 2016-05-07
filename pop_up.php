@@ -18,12 +18,12 @@
           <section class="modal-content oza-modal-content">
             <form id="small_model_form" class="form-inline" name="small-model-form" method="post" action="mail.php">
               
-               <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Enquire tour</h3><code class="close_btn cancel_btn"> </code>
+               <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Enquire tour</h3><code id="enquire_cancel_btn" class="close_btn cancel_btn"> </code>
                <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Basic Details</h4>
           
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                   <label class="sr-only" for="">Planning destination<sup>*</sup></label>
-                  <select class="form-control" id="select_destination" name="Planningdestination" value="" >
+                  <select class="form-control enquire_form_clear" id="select_destination" name="Planningdestination" value="" >
                     <option value="">Planning destination*</option>
                     <option id="inbound" value="inbound">Inbound</option>
                     <option id="outbound" value="outbound">Outbound</option>                
@@ -32,11 +32,11 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-name">Name<sup>*</sup></label>
-                   <input text="email" class="form-control" id="oza-modal-name" name="Name" placeholder="Name*" >
+                   <input text="text" class="form-control enquire_name enquire_form_clear" id="oza-modal-name" name="Name" placeholder="Name*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                   <label class="sr-only" for="oza-modal-city">City</label>
-                  <select class="form-control oza-text-placeholder city_list" id="City" name="City" >
+                  <select class="form-control oza-text-placeholder city_list enquire_form_clear" id="City" name="City" >
                     <option value="">City*</option>
                     <option class="inbound_city" value="Bandipur">Bandipur</option>
                     <option class="inbound_city" value="Bangalore">Bangalore</option>
@@ -102,16 +102,16 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-mobile">Mobile<sup>*</sup></label>
-                   <input type="text" class="form-control" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
+                   <input type="text" class="form-control enquire_mobile enquire_form_clear" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-email">Email<sup>*</sup></label>
-                   <input type="email" class="form-control" id="oza-modal-email" name="Email" value="" placeholder="Email*" >
+                   <input type="email" class="form-control enquire_email enquire_form_clear" id="oza-modal-email" name="Email" value="" placeholder="Email*" >
                 </article>
                 <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Number of People</h4>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-4 col-lg-4">
                   <label class="sr-only" for="oza-modal-adult">Adult</label>
-                  <select class="form-control" id="Adult" name="Adult" value="" >
+                  <select class="form-control enquire_form_clear" id="Adult" name="Adult" value="" >
                     <option value="">Adult*</option>
                     <!-- <option value="0">0</option> -->
                     <option value="1">1</option>
@@ -124,7 +124,7 @@
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-4 col-lg-4">
                  <label class="sr-only" for="oza-modal-child">Child</label>
-                 <select class="form-control" id="Child" name="Child" value="" >
+                 <select class="form-control enquire_form_clear" id="Child" name="Child" value="" >
                     <option value="">Child*</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -133,11 +133,11 @@
                     <option value="2">4</option>
                  </select>
                  <!-- <input type="hidden" name="Child_hidden" id="Child_hidden" value="">  -->
-                 <p class="oza-people">5-12+ years</p>
+                 <p class="oza-people">5-12 years</p>
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-4 col-lg-4">
                 <label class="sr-only" for="oza-modal-infant">Infant</label>
-                <select class="form-control" name="Infant" value="" >
+                <select class="form-control enquire_form_clear" name="Infant" value="" >
                   <option value="">Infant*</option>
                   <option value="0">0</option>
                   <option value="1">1</option>
@@ -146,13 +146,13 @@
                   <option value="2">4</option>
                 </select>
                 <!-- <input type="hidden" name="Infant_hidden" value="">  -->
-                <p class="oza-people">0-5+ years</p>
+                <p class="oza-people">0-5 years</p>
               </article>
               <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">When are you planning?</h4>
 
               <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                 <label class="sr-only" for="oza-modal-name">Janauary 2016</label>
-                <input type="text" class="form-control" name="Date_of_travel" id="datepicker" value="" placeholder="Date of travel">
+                <input type="text" class="form-control enquire_form_clear" name="Date_of_travel" id="datepicker" value="" placeholder="Date of travel">
                 <!--          <select class="form-control" id="datepicker">
                             <option>Janauary 2016</option>
                             <option>March 2016</option>
@@ -162,7 +162,7 @@
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                  <label class="sr-only" for="exampleInputEmail3">Any Other Requirement</label>
-                 <input type="text" name="other-requirements" class="form-control" id="exampleInputEmail3" placeholder="Any Other Requirement">
+                 <input type="text" name="other-requirements" class="form-control enquire_form_clear" id="exampleInputEmail3" placeholder="Any Other Requirement">
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12 text-center">
                  <button type="submit" class="btn btn-oza-green btn-lg text-uppercase">Send Enquire</button>
@@ -181,11 +181,11 @@
             <section class="modal-content oza-modal-feedback-content">
                <form id="feedback_form" class="form-inline" name="feedback-form" method="post" action="feedback_send_email.php">
                 
-                <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Feedback</h3><code class="close_btn cancel_btn"> </code>
+                <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Feedback</h3><code id="feed_cancel_btn" class="close_btn cancel_btn"> </code>
                 <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">We would love to hear from you!</h4>          
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                    <label class="sr-only" for="">Country Visited<sup>*</sup></label>
-                   <select class="form-control" name="Countryvisited" >
+                   <select class="form-control feedback_form_clear" name="Countryvisited" >
                       <option value="">Country Visited*</option>
                       <option value="Austalia">Austalia</option>
                       <option value="Bali">Bali</option>
@@ -225,11 +225,11 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-name">Name<sup>*</sup></label>
-                   <input type="text" class="form-control" id="oza-modal-name" name="Name" placeholder="Name*" >
+                   <input type="text" class="form-control feed_name feedback_form_clear" id="oza-modal-name" name="Name" placeholder="Name*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-city">City</label>
-                   <select class="form-control oza-text-placeholder" name="City" >
+                   <select class="form-control oza-text-placeholder feedback_form_clear" name="City" >
                       <option value="">City*</option>
                       <option class="city" value="Bandipur">Bandipur</option>
                       <option class="city" value="Bangalore">Bangalore</option>
@@ -260,15 +260,15 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-mobile" min="0" max="9">Mobile<sup>*</sup></label>
-                   <input type="tel" class="form-control" id="oza-modal-mobile" name="Mobile" placeholder="Mobile*" >
+                   <input type="text" class="form-control feed_mobile feedback_form_clear" id="oza-modal-mobile" name="Mobile" placeholder="Mobile*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-email">Email<sup>*</sup></label>
-                   <input type="email" class="form-control" id="oza-modal-email" name="Email" placeholder="Email*" >
+                   <input type="text" class="form-control feed_email feedback_form_clear" id="oza-modal-email" name="Email" placeholder="Email*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                    <label class="sr-only" for="oza-modal-name">Departure Date*</label>
-                    <input type="text" class="form-control" name="Date_of_depature" id="datepicker_depature" value="" placeholder="Date of depature">
+                    <input type="text" class="form-control feedback_form_clear" name="Date_of_depature" id="datepicker_depature" value="" placeholder="Date of depature">
                   <!--  <select class="form-control">
                       <option>Departure Date*</option>
                       <option>26-jan-2016</option>
@@ -278,7 +278,7 @@
                 </article>      
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                    <label class="sr-only" for="oza-textarea">Say as your experience</label>
-                   <textarea class="form-control" rows="3" id="oza-textarea" name="textarea_feedback" placeholder="Say as your experience"></textarea>
+                   <textarea class="form-control feedback_form_clear" rows="3" id="oza-textarea" name="textarea_feedback" placeholder="Say as your experience"></textarea>
                 </article>        
                 <article class="text-center col-xs-12 col-sm-12 coll-md-12 col-lg-12"> 
                 <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Rate us!</h4>
@@ -289,7 +289,7 @@
                 <em class="glyphicon glyphicon-star-empty oza-rating text-success"></em>
                 </article>            
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12 text-center">
-                   <button type="submit" class="btn btn-oza-green btn-lg text-uppercase">Submit</button>
+                   <button type="submit" id="feed_submit" class="btn btn-oza-green btn-lg text-uppercase">Submit</button>
                 </article>
               </form>
             </section>

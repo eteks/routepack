@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 			},
 			Name: {
 					required: true,
-					minlength: 3,
+					minlength: 2,
 		  	},
 		  	Email: {
 					required: true,
@@ -46,7 +46,7 @@ jQuery(document).ready(function(){
 			},			
 			Name: {
 				required: "Please enter your name",
-				minlength: "Your name must consist of at least 2 characters"
+				minlength: "Name must have atleast 2 characters"
 			},
 			Email: {
 				required: "Please enter a valid email address",
@@ -87,7 +87,7 @@ jQuery(document).ready(function(){
 
 			Name: {
 					required: true,
-					minlength: 3,
+					minlength: 2,
 		  	},
 		  	City: {
 		  		required: true,
@@ -106,6 +106,9 @@ jQuery(document).ready(function(){
     		},			
 		},
 		
+
+
+
 		messages: {
 			Countryvisited: {
 				required: "Please select a country you are visited"
@@ -128,6 +131,10 @@ jQuery(document).ready(function(){
 			Date_of_depature: {
 				required: "Please enter the date of depature",
 			},
+
+
+
+
 		}
 
 	});
@@ -136,7 +143,7 @@ jQuery(document).ready(function(){
 		rules: {
 			Name: {
 				required: true,
-				minlength: 3,
+				minlength: 2,
 			},			
 		  	Email: {
 					required: true,
@@ -163,20 +170,149 @@ jQuery(document).ready(function(){
 		}
 	});
 	
-	// validate small model form
-	$('#small_model_form, #feedback_form, #contact_form').submit(function(event) {
+	// validate contact_us form
+	$('#contact_form').submit(function(event) {
 		event.preventDefault();
 		// document.body.style.overflow = 'hidden';
 		var content = $(this).serializeArray();
 		// alert(content);
 		var formname = $(this).attr('id');
+		var mail_format_contact = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		// alert(formname);
+		var contact_email=$('.contact_email').val();
+		var contact_name=$('.contact_name').val();
+		var contact_msg=$('.contact_msg').val();
 		var res = true;
-		$('input[type="text"],textarea',this).each(function() {
+		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
 			if($(this).val().trim() == "") {
 			res = false; 
 			}
+			if(!contact_email.match(mail_format_contact)) {
+	    		res=false;
+	    	}
+	    	if(contact_name <= 2) {
+				res = false;
+			}
+			if(contact_msg <= 9) {
+				res = false;
+			}
+
+
 		});
+		
+	content.push({"name":"formname","value":formname});
+		if(res){
+			$.ajax({
+				url: 'mail.php',
+				type: 'POST',
+				data: content,
+				success: function(data) {
+					if(data=='success') {
+					alert("Your request has been submitted successfully.");
+					window.location.href="index.php";
+					}
+					else {
+					alert("Your request is not submitted due to some technical problem.Please send it later");
+					window.location.href="index.php";
+					}					
+				},
+			});
+			return false;
+		}
+	});
+
+
+	// validate enquire_model form
+	$('#small_model_form, #feedback_form').submit(function(event) {
+		event.preventDefault();
+		// document.body.style.overflow = 'hidden';
+		var content = $(this).serializeArray();
+		// alert(content);
+		var formname = $(this).attr('id');
+		var phone_re = /^[0-9]+$/;
+		var enquire_name=$('.enquire_name').val();
+		var enquire_mobile=$('.enquire_mobile').val();
+		var mob_len=enquire_mobile.length;
+		var mail_format = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		var enquire_email=$('.enquire_email').val();
+		// alert(formname);
+		var res = true;
+		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
+			if($(this).val().trim() == "") {
+			res = false; 
+			}
+			if(enquire_name <= 2) {
+				res = false;
+			}
+			if (!enquire_mobile.match(phone_re)) {
+				res = false;
+			}
+			if(mob_len < 10 || mob_len > 11) {
+				res = false;
+			}
+			if(!enquire_email.match(mail_format)) {
+	    		res=false;
+	    	}
+		});
+		content.push({"name":"formname","value":formname});
+			content.push({"name":"formname","value":formname});
+		if(res){
+			$.ajax({
+				url: 'mail.php',
+				type: 'POST',
+				data: content,
+				success: function(data) {
+					if(data=='success') {
+					alert("Your request has been submitted successfully.");
+					window.location.href="index.php";
+					}
+					else {
+					alert("Your request is not submitted due to some technical problem.Please send it later");
+					window.location.href="index.php";
+					}					
+				},
+			});
+			return false;
+		}
+	});
+    
+    // validate feedback form
+	$('#small_model_form, #feedback_form').submit(function(event) {
+		event.preventDefault();
+		// document.body.style.overflow = 'hidden';
+		var content = $(this).serializeArray();
+		// alert(content);
+		var formname = $(this).attr('id');
+		var feed_moblile=$('.feed_mobile').val();
+		var phone_re = /^[0-9]+$/;
+        var mob_len=feed_moblile.length;
+		var mail_format = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        // alert(mob_len);
+		// alert(feed_moblile);
+		// alert("test");
+		var feed_email=$('.feed_email').val();
+		var feed_name=$('.feed_name').val();
+		// alert(feed_email);
+		// alert(formname);
+		var res = true;
+		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
+			if($(this).val().trim() == "") {
+			res = false; 
+			}
+			if (!feed_moblile.match(phone_re)) {
+				res = false;
+			}
+			if(mob_len < 10 || mob_len > 11) {
+				res = false;
+			}
+			if(!feed_email.match(mail_format)) {
+	    		res=false;
+	    	}
+	    	if(feed_name <= 2) {
+				res = false;
+			}
+		});
+		
 		content.push({"name":"formname","value":formname});
 		if(res){
 			$.ajax({
@@ -184,7 +320,14 @@ jQuery(document).ready(function(){
 				type: 'POST',
 				data: content,
 				success: function(data) {
-					alert(data);
+					if(data=='success') {
+					alert("Your request has been submitted successfully.");
+					window.location.href="index.php";
+					}
+					else {
+					alert("Your request is not submitted due to some technical problem.Please send it later");
+					window.location.href="index.php";
+					}					
 				},
 			});
 			return false;

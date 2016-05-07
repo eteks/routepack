@@ -54,7 +54,7 @@ body { font-size:14px; font-family: Helvetica, Arial, sans-serif; }
 /*.oza-header {background:url(../images/cloudoozaaoo.gif) no-repeat center top #fff;padding-top:0; background-size:cover;}
 */.oza-header-menu-nav{margin-top:33px;}
 .oza-header-menu-nav a{overflow:hidden;transition: 3s ease;padding:10px 5px !important; margin:0px 10px; color:#080b57;font-family: RoundedElegance, Arial, sans-serif;border-bottom:2px solid transparent;font-weight: bold;}
-.oza-header-menu-nav a:hover{background-color:white;color:rebeccapurple;text-shadow: 1px 1px rebeccapurple;/*-webkit-transform: translateZ(0) translate(0, 0);-ms-transform: translateZ(0) translate(0, 0);transform: translateZ(0) translate(0, 0);*/text-shadow: 0 0 0 #fff, 0 -45px 0 rebeccapurple;background:transparent !important; border-bottom:5px solid #dbdf1b;}
+.oza-header-menu-nav a:hover{background-color:white;color:rebeccapurple;text-shadow: 1px 1px rebeccapurple;/*-webkit-transform: translateZ(0) translate(0, 0);-ms-transform: translateZ(0) translate(0, 0);transform: translateZ(0) translate(0, 0);*/text-shadow: 0 0 0 #fff, 0 -45px 0 rebeccapurple;background:transparent !important; border-bottom:5px solid #0d128d;}
 .oza-sidebar-offcanvas{float:right}
 /*.bg_img {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;}*/
 .oza-header {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;height: 453px;}
@@ -1984,7 +1984,8 @@ height: 100%;
 .partner_width{
 	width: 180px;
 }
-.selected{
-	background-color:#d90000;
-  	color:#fff;
+.selected a{
+	border-bottom: 5px solid #080b57;
+  color: #fff;
+  /*color: red;*/
 }

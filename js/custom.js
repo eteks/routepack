@@ -55,7 +55,6 @@ jQuery(document).ready(function(){
       $(this).addClass('selected');
     }
   });
-
 });
 
 

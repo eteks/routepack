@@ -11,7 +11,7 @@
 .oza-sidebar-offcanvas{float:none;}
 .oza-sidebar-offcanvas li{background:white;border-bottom:1px solid #bf55ec;}
 .oza-header-menu-nav a:hover{background:transparent !important; border-bottom:2px solid transparent;}
-.oza-header-menu-nav li{ text-align:center; display:block;padding-top:5px;padding-bottom:5px;}
+.oza-header-menu-nav li{ text-align:center; display:block;padding-top:5px;padding-bottom:5px; background-color:#4c4c4c;}
 .oza-well{text-align:center;}
 .oza-footer {background:url(../images/footer-bg.png) no-repeat 100% 100% #fff; padding-top:15px;padding-bottom:15px;}
 .oza-footer-menu-nav{margin-top:25px; margin-bottom:25px;}

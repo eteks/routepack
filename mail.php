@@ -1,5 +1,6 @@
 <?php
 	// $admin_email = "info@oozaaoo.com";
+   $to = "info@etekchnoservices.com";
 	$admin_email = "sweetkannan05@gmail.com";
 	$title = "Request for".$_POST['formname'];
 	$email = $_POST['Email'];
@@ -12,7 +13,7 @@
 		$comment .= $key.":".$value."\n" ;
 	}
 	
-	$send = mail($admin_email,$title, $comment, "From:" . $email);	
+	$send = mail($admin_email,$title, $comment, "From:" .  $to );	
 	
 	if($send){
 				echo "success";

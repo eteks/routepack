@@ -38,7 +38,7 @@
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
-    <section class="oza-header" >
+    <section class="oza-header">
       <header id="navbar-top" class="banner navbar" role="banner"> <!-- navbar start -->
         <section class="pannello-affix affix-top" data-spy="affix" data-offset-top = "60">
           <section class="container">
@@ -81,6 +81,7 @@
           </article>
         </section>
       </section>
+
       <!-- Animation in header part start-->
       <section class="hidden-xs animation">
         <div id="da-slider" class="container-fluid da-slider animation_cloud">
@@ -211,11 +212,7 @@
                   <span class="left">siva</span></li> -->
                 <div class="clear slider1Image">
                 </div>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> <!--  image_slider under header_part end-->
+      <!--  image_slider under header_part end-->
       <!--  image_slider under heaer_part start-->              
       <div class="container image-slider-new hidden-xs">
         <div class="row">
@@ -421,7 +418,7 @@
                 <li data-target="#carouselHome" data-slide-to="2"></li>
                 <li data-target="#carouselHome" data-slide-to="3"></li>
             </ol>
-</div>
+        </div>
       
 
 

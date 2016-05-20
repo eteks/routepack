@@ -134,7 +134,7 @@ Warangal, located in Telangana is a beautiful city with a glorious past. We find
 		<div class="close"></div>
 		<h2>Kaniyakumari - Thiruvandrum(3 Night 4 Days)</h2>
 		<p class="place">
-			<strong>Where You do go:</strong><br><p class-"covers"> Thiruvalluvar statue-mahatma Gandhi memoria-vivekananada rock memorial-amarajar manimandapam-Priyadarshini Planetarium-Vizhinjam Rock Cut Temple-Kuthiramalika-Kanakakunnu Palace
+			<strong>Where You do go:</strong><br><p class="covers"> Thiruvalluvar statue-mahatma Gandhi memoria-vivekananada rock memorial-amarajar manimandapam-Priyadarshini Planetarium-Vizhinjam Rock Cut Temple-Kuthiramalika-Kanakakunnu Palace
 .</p>
 		</p>
 		<p class="sub_title"><strong>Kaniyakumari - Thiruvandrum</strong></p>

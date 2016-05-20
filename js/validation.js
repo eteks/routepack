@@ -18,8 +18,8 @@ jQuery(document).ready(function(){
 			},
 			Mobile: {
 					required:true,
-					maxlength:10,
-					// maxlength:11,
+					minlength:10,
+					maxlength:11,
 			},
 			Adult: {
 					required:true,
@@ -58,7 +58,7 @@ jQuery(document).ready(function(){
 			Mobile: {
 				required: "Please enter mobile number",
 				minlength: "Please enter valid mobile number",
-				// maxlength: "Please enter valid mobile number",
+				maxlength: "Please enter valid mobile number",
 			},
 			Adult: {
 				required: "Please enter  no of adults",
@@ -170,6 +170,8 @@ jQuery(document).ready(function(){
 		}
 	});
 	
+
+
 	// validate contact_us form
 	$('#contact_form').submit(function(event) {
 		event.preventDefault();
@@ -188,8 +190,16 @@ jQuery(document).ready(function(){
 			res = false; 
 			}
 			if(!contact_email.match(mail_format_contact)) {
+				$('#oza-modal-contact-error').addClass('error-val-important');
+
+				$('.error-val').css('display','inline-block');
+
 	    		res=false;
 	    	}
+	    	else {
+	    		$('.error-val').css('display','none');
+	    	}
+
 	    	if(contact_name <= 2) {
 				res = false;
 			}
@@ -199,15 +209,14 @@ jQuery(document).ready(function(){
 
 
 		});
-		
-	content.push({"name":"formname","value":formname});
+		content.push({"name":"formname","value":formname});
 		if(res){
 			$.ajax({
 				url: 'mail.php',
 				type: 'POST',
 				data: content,
 				success: function(data) {
-					if(data=='success') {
+					if(data.trim()=='success') {
 					alert("Your request has been submitted successfully.");
 					window.location.href="index.php";
 					}
@@ -222,8 +231,9 @@ jQuery(document).ready(function(){
 	});
 
 
+
 	// validate enquire_model form
-	$('#small_model_form, #feedback_form').submit(function(event) {
+	$('#small_model_form').submit(function(event) {
 		event.preventDefault();
 		// document.body.style.overflow = 'hidden';
 		var content = $(this).serializeArray();
@@ -251,18 +261,23 @@ jQuery(document).ready(function(){
 				res = false;
 			}
 			if(!enquire_email.match(mail_format)) {
+				$('#oza-modal-email-error').addClass('error-val-important');
+
+				$('.error-val').css('display','inline-block');
 	    		res=false;
+	    	}
+	    	else {
+	    		$('.error-val').css('display','none');
 	    	}
 		});
 		content.push({"name":"formname","value":formname});
-			content.push({"name":"formname","value":formname});
 		if(res){
 			$.ajax({
 				url: 'mail.php',
 				type: 'POST',
 				data: content,
 				success: function(data) {
-					if(data=='success') {
+					if(data.trim()=='success') {
 					alert("Your request has been submitted successfully.");
 					window.location.href="index.php";
 					}
@@ -276,8 +291,10 @@ jQuery(document).ready(function(){
 		}
 	});
     
+
+
     // validate feedback form
-	$('#small_model_form, #feedback_form').submit(function(event) {
+	$('#feedback_form').submit(function(event) {
 		event.preventDefault();
 		// document.body.style.overflow = 'hidden';
 		var content = $(this).serializeArray();
@@ -306,7 +323,14 @@ jQuery(document).ready(function(){
 				res = false;
 			}
 			if(!feed_email.match(mail_format)) {
+				// alert("invalid");
+				$('#oza-modal-email-error').addClass('error-val-important');
+
+				$('.error-val').css('display','inline-block');
 	    		res=false;
+	    	}
+	    	else {
+	    		$('.error-val').css('display','none');
 	    	}
 	    	if(feed_name <= 2) {
 				res = false;
@@ -336,7 +360,5 @@ jQuery(document).ready(function(){
 		}
 
 	});
-
-
 
 });//END DOCUEMENT

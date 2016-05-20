@@ -1,0 +1,27 @@
+/*Css for dot icons in carousel slider*/
+.carousel-indicators {
+  position: absolute;
+  bottom: 30px;
+}
+
+@media only screen and (max-width: 789px) {
+.partner-align {
+    height: 59px;
+    width: 113px;
+    padding: 10px;
+}
+.header-offer1-contact {
+   color: #1b6097;
+    font-family: Aharoni;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 57px;
+}
+	.header-holiday1-contact {
+   color: #1b6097;
+    font-family: Myriad Pro;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 8px -6px -10px;
+}
+}

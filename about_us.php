@@ -57,21 +57,18 @@
                </section>
             </section>
          </header>
-         
-
-
-<section class="container-fluid visible-xs mobile-header">
-        <section class="row">
-          <article class="col-xs-12 mobile-column1-about">
-            <div class="header-slide-content-about">
+         <section class="container-fluid visible-xs mobile-header">
+            <section class="row">
+              <article class="col-xs-12 mobile-column1-about">
+                <div class="header-slide-content-about">
                 
-                <p class="header-holiday1-about"> World is a<mark id="inbound_mark_about">book those </mark> </h3>
-                <p class="header-offer1-about"> who dont<mark id="inbound_mark1_about"> travelread</mark> only a page</p>
+                    <p class="header-holiday1-about"> World is a<mark id="inbound_mark_about">book those </mark> </h3>
+                    <p class="header-offer1-about"> who dont<mark id="inbound_mark1_about"> travelread</mark> only a page</p>
                 
-                
-              </div>
-          </article>
-        </section>
+                 
+                </div>
+              </article>
+            </section>
         <section class="row">
           <article class="col-xs-6 mobile-column2-about">
             <img class="img-responsive" src="images/about_us2.png" alt="image01"/>
@@ -83,7 +80,7 @@
 
 
 
-<section class="hiddenn-xs">
+<section class="hidden-xs">
         <div id="da-slider_about" class="container-fluid hiddenn-xs da-slider_about animation_cloud_about">
           
           <div class="da-slide_about hidden-xs">

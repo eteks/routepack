@@ -57,9 +57,9 @@ body { font-size:14px; font-family: Helvetica, Arial, sans-serif; }
 .oza-header-menu-nav a:hover{background-color:white;color:rebeccapurple;text-shadow: 1px 1px rebeccapurple;/*-webkit-transform: translateZ(0) translate(0, 0);-ms-transform: translateZ(0) translate(0, 0);transform: translateZ(0) translate(0, 0);*/text-shadow: 0 0 0 #fff, 0 -45px 0 rebeccapurple;background:transparent !important; border-bottom:5px solid #0d128d;}
 .oza-sidebar-offcanvas{float:right}
 /*.bg_img {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;}*/
-.oza-header {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;height: 453px;}
+.oza-header {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;height: auto;}
  @media (min-width: 768px) {
-     .oza-header {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;height: 800px;} 
+     .oza-header {background:url(../images/header-bg.png) no-repeat center top #fff;padding-top:0;height: auto;} 
     }
 /*.animation_cloud {background:url(../images/background.png) no-repeat center ; position: relative !important;}*/
 
@@ -1074,20 +1074,6 @@ height: 100%;
     text-align: center;
     width: 100%;
 }
-.header-offer1-contact {
-   color: #1b6097;
-    font-family: Aharoni;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 57px;
-}
-.header-holiday1-contact {
-   color: #1b6097;
-    font-family: Myriad Pro;
-    font-size: 21px;
-    font-weight: bold;
-    margin: 8px -6px -10px;
-}
 .mobile-column2-contact {
   height: 141px;
     padding: 0;
@@ -1102,6 +1088,7 @@ height: 100%;
 .partner-align {
     height: 100px;
     width: 150px;
+    padding: 0px;
 }
 #map_area{
     height: 200px;
@@ -1995,4 +1982,14 @@ height: 100%;
 }
 #hyderabad_width {
 width: 70% !important;
+}
+
+.error-val {
+    color: red;
+    display: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+.error-val-important{
+  display: none !important;
 }

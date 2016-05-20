@@ -1,36 +1,23 @@
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/jquery-1.11.3.min.js"></script>  
-  <script src="js/validate.min.js"></script> 
-
-  <script type="text/javascript" src="js/action.js"></script>
-
- </head>
-  <body>
- 
 
 <div class="feedback-height-align hidden-xs">
         <button type="button" class="btn btn-primary custom_font"  id="small-model" data-toggle="modal" data-target=".bs-example-modal-sm">Enquire Tour</button>
-      </div> 
-        <section class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-         <section class="modal-dialog ">
-          <section class="modal-content oza-modal-content">
-            <form id="small_model_form" class="form-inline" name="small-model-form" method="post" action="mail.php">
-              
-               <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Enquire tour</h3><code id="enquire_cancel_btn" class="close_btn cancel_btn"> </code>
-               <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Basic Details</h4>
-          
-                <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
-                  <label class="sr-only" for="">Planning destination<sup>*</sup></label>
-                  <select class="form-control enquire_form_clear" id="select_destination" name="Planningdestination" value="" >
-                    <option value="">Planning destination*</option>
-                    <option id="inbound" value="inbound">Inbound</option>
-                    <option id="outbound" value="outbound">Outbound</option>                
-                  </select>
-                  <!-- <input type="hidden" name="planning_destination_hidden"  id="planning_destination_hidden" value=""> -->
-                </article>
-                <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
+</div> 
+<section class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <section class="modal-dialog ">
+    <section class="modal-content oza-modal-content">
+        <form id="small_model_form" class="form-inline" name="small-model-form" method="post" action="mail.php">
+          <h3 class="oza-modal-head-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Enquire tour</h3><code id="enquire_cancel_btn" class="close_btn cancel_btn"> </code>
+          <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Basic Details</h4>
+          <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
+            <label class="sr-only" for="">Planning destination<sup>*</sup></label>
+            <select class="form-control enquire_form_clear" id="select_destination" name="Planningdestination" value="" >
+              <option value="">Planning destination*</option>
+              <option id="inbound" value="inbound">Inbound</option>
+              <option id="outbound" value="outbound">Outbound</option>                
+            </select>
+            <!-- <input type="hidden" name="planning_destination_hidden"  id="planning_destination_hidden" value=""> -->
+          </article>
+            <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-name">Name<sup>*</sup></label>
                    <input text="text" class="form-control enquire_name enquire_form_clear" id="oza-modal-name" name="Name" placeholder="Name*" >
                 </article>
@@ -102,11 +89,12 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-mobile">Mobile<sup>*</sup></label>
-                   <input type="text" class="form-control enquire_mobile enquire_form_clear" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
+                   <input type="text" class="form-control enquire_mobile enquire_form_clear digits_only" id="oza-modal-mobile" name="Mobile" value="" placeholder="Mobile*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-email">Email<sup>*</sup></label>
                    <input type="email" class="form-control enquire_email enquire_form_clear" id="oza-modal-email" name="Email" value="" placeholder="Email*" >
+                    <span class="error-val">Please enter a valid email address.</span>
                 </article>
                 <h4 class="oza-modal-title col-xs-12 col-sm-12 coll-md-12 col-lg-12">Number of People</h4>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-4 col-lg-4">
@@ -260,11 +248,12 @@
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-mobile" min="0" max="9">Mobile<sup>*</sup></label>
-                   <input type="text" class="form-control feed_mobile feedback_form_clear" id="oza-modal-mobile" name="Mobile" placeholder="Mobile*" >
+                   <input type="text" class="form-control feed_mobile feedback_form_clear digits_only" id="oza-modal-mobile" name="Mobile" placeholder="Mobile*" >
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-6 col-lg-6">
                    <label class="sr-only" for="oza-modal-email">Email<sup>*</sup></label>
                    <input type="text" class="form-control feed_email feedback_form_clear" id="oza-modal-email" name="Email" placeholder="Email*" >
+                    <span class="error-val">Please enter a valid email address.</span>
                 </article>
                 <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                    <label class="sr-only" for="oza-modal-name">Departure Date*</label>
@@ -317,21 +306,15 @@
 
 
 
-
-      <section class="visible-xs">
-        <section class="container">
-          <section class="col-xs-6">
-            <div class="feedback-height-align1">
-              <button type="button" class="btn btn-primary custom_font" id="feedback" data-toggle="modal" data-target=".feadback">feedback</button>
-            </div>
-          </section>
-          <section class="col-xs-6">
-            <div class="feedback-height-align">
-              <button type="button" class="btn btn-primary custom_font"  id="small-model" data-toggle="modal" data-target=".bs-example-modal-sm">Enquire Tour</button>
-            </div> 
-          </section>
-        </section>
-      </section>
-
-</body>
-</html>
+  <section class="container visible-xs">
+    <section class="col-xs-6">
+      <div class="feedback-height-align1">
+        <button type="button" class="btn btn-primary custom_font" id="feedback" data-toggle="modal" data-target=".feadback">feedback</button>
+      </div>
+    </section>
+    <section class="col-xs-6">
+      <div class="feedback-height-align">
+        <button type="button" class="btn btn-primary custom_font"  id="small-model" data-toggle="modal" data-target=".bs-example-modal-sm">Enquire Tour</button>
+      </div> 
+    </section>
+  </section>

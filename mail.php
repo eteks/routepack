@@ -1,7 +1,7 @@
 <?php
-	// $admin_email = "info@oozaaoo.com";
+	$admin_email = "info@oozaaoo.com";
    $to = "info@etekchnoservices.com";
-	$admin_email = "sweetkannan05@gmail.com";
+	// $admin_email = "sweetkannan05@gmail.com";
 	$title = "Request for".$_POST['formname'];
 	$email = $_POST['Email'];
 	$data = $_POST;

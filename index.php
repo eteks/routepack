@@ -165,7 +165,7 @@
     <?php include("pop_up.php"); ?> <!-- button and its pop_up -->
     <main>
       <!--  image_slider under heaer_part start-->              
-      <div class="container image-slider-new visible-xs">
+     <!--  <div class="container image-slider-new visible-xs">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <div id="slider1">
@@ -184,7 +184,7 @@
                     <img src="images/mobile-img.png" alt="" />
                  </div>
                 </div>
-              </div></div></div>
+              </div></div></div> -->
                 
 
 
@@ -214,13 +214,13 @@
                 </div>
       <!--  image_slider under header_part end-->
       <!--  image_slider under heaer_part start-->              
-      <div class="container image-slider-new hidden-xs">
+      <div class="container image-slider-new">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <div id="slider1">
               <ul id="slider1Content">
                 <li class="slider1Image">
-                  <a><img src="images/slider11.png" alt="" /></a>
+                  <a class="hidden-xs"><img src="images/slider11.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Thailand</h2>
                     <p class="slider-bullet-content"> 
@@ -233,7 +233,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider13.png" alt="" /></a>
+                  <a class="hidden-xs"><img src="images/slider13.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Bali –Indonesia</h2>
                    
@@ -243,11 +243,12 @@
                        3 & 4 days 
                      </p>
                     <br><br>
-                    <p class="slider-button-paragraph"><a role="button" title="oozaaoo" class="btn btn-oza-green btn-lg text-uppercase" id="bali">25,000 /- per person</a></p>
+                    <p class="slider-button-paragraph">
+                      <a role="button" title="oozaaoo" class="btn btn-oza-green btn-lg text-uppercase" id="bali">25,000 /- per person</a></p>
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider12.png" alt="" /></a>
+                  <a class="hidden-xs"><img src="images/slider12.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Malaysia</h2>
                     <p class="slider-bullet-content"> 
@@ -260,7 +261,7 @@
                   </span>
                 </li>
                 <li class="slider1Image">
-                  <a><img src="images/slider14.png" alt="" /></a>
+                  <a class="hidden-xs"><img src="images/slider14.png" alt="" /></a>
                   <span class="left11">
                     <h2 class="oza-carousel-head-title">Singapore</h2>
                     <p class="slider-bullet-content"> 

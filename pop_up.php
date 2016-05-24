@@ -150,7 +150,7 @@
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12">
                  <label class="sr-only" for="exampleInputEmail3">Any Other Requirement</label>
-                 <input type="text" name="other-requirements" class="form-control enquire_form_clear" id="exampleInputEmail3" placeholder="Any Other Requirement">
+                 <input type="textbox" name="other-requirements" class="form-control enquire_form_clear" id="exampleInputEmail3" placeholder="Any Other Requirement">
               </article>
               <article class="form-group col-xs-12 col-sm-12 coll-md-12 col-lg-12 text-center">
                  <button type="submit" class="btn btn-oza-green btn-lg text-uppercase">Send Enquire</button>

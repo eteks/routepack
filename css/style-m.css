@@ -40,6 +40,11 @@
     position: relative; /* important */
   overflow: hidden; /* important */
    background-color: #f2f2ef; }
+   .slider1Image {
+    float: right;
+    position: absolute;ment system 
+  display: block;
+}
 }
 
 #slider1Content {

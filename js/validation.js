@@ -182,8 +182,8 @@ jQuery(document).ready(function(){
 		var mail_format_contact = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		// alert(formname);
 		var contact_email=$('.contact_email').val();
-		var contact_name=$('.contact_name').val();
-		var contact_msg=$('.contact_msg').val();
+		var contact_name=$('.contact_name').val().length;
+		var contact_msg=$('.contact_msg').val().length;
 		var res = true;
 		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
 			if($(this).val().trim() == "") {
@@ -200,7 +200,7 @@ jQuery(document).ready(function(){
 	    		$('.error-val').css('display','none');
 	    	}
 
-	    	if(contact_name <= 2) {
+	    	if(contact_name <= 1) {
 				res = false;
 			}
 			if(contact_msg <= 9) {
@@ -247,7 +247,7 @@ jQuery(document).ready(function(){
 		var enquire_email=$('.enquire_email').val();
 		// alert(formname);
 		var res = true;
-		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
+		$('input[type="text"],input[type="tel"]',this).each(function() {
 			if($(this).val().trim() == "") {
 			res = false; 
 			}
@@ -312,7 +312,7 @@ jQuery(document).ready(function(){
 		// alert(feed_email);
 		// alert(formname);
 		var res = true;
-		$('input[type="text"],input[type="tel"],textarea',this).each(function() {
+		$('input[type="text"],input[type="tel"]',this).each(function() {
 			if($(this).val().trim() == "") {
 			res = false; 
 			}
